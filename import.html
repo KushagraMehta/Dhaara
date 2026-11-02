@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhaara</title>
+  <link rel="icon" href="icons/icon32.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+  <div id="top" class="top">
+    <header class="toolbar">
+      <div id="tbTitle" class="tb-title"><img src="icons/icon32.png" alt="" width="20" height="20"><span>Dhaara</span></div>
+      <div id="tbActions" class="tb-actions" hidden>
+        <button id="copyBtn">Copy Links</button>
+        <button id="queueBtn"></button>
+        <button id="playBtn"></button>
+        <button id="createBtn" class="primary">Save</button>
+      </div>
+      <div id="account" class="tb-account"></div>
+    </header>
+    <div id="job" class="feedback" role="status"></div>
+  </div>
+
+  <main class="wrap">
+    <section id="settings" class="group settings" aria-labelledby="settingsTitle" hidden>
+      <h2 id="settingsTitle">Spotify Account</h2>
+
+      <div id="setupBox" hidden>
+        <p>Choose how to connect. You only do this once.</p>
+        <div class="choice">
+          <button id="setupBtn" class="primary">Set Up Spotify…</button>
+          <p class="note">Recommended. About a minute: the extension opens Spotify’s developer dashboard and fills in the Create app form (or uses the app you already have); you tick the terms box and click Save. Needs Spotify Premium.</p>
+        </div>
+        <div class="choice">
+          <button id="webBtn">Use My Spotify Tab</button>
+          <p class="note">No setup. Unofficial: it uses Spotify’s web player in your browser and can stop working at any time.</p>
+        </div>
+      </div>
+
+      <div id="loginBox" hidden>
+        <p id="loginText"></p>
+        <div class="actions-row">
+          <button id="connectBtn" class="primary">Connect Spotify…</button>
+          <button id="loginSetupBtn" hidden>Set Up Spotify…</button>
+        </div>
+      </div>
+
+      <div id="connectedBox" hidden>
+        <p>Signed in as <b id="userName"></b>. <span id="modeText"></span></p>
+        <div class="actions-row">
+          <button id="modeBtn"></button>
+          <button id="disconnectBtn" class="plain danger">Disconnect…</button>
+        </div>
+        <div id="disconnectConfirm" hidden></div>
+      </div>
+
+      <div id="prefsBox" class="prefs-box" hidden>
+        <h3>Playback and Links</h3>
+        <div class="prefs">
+          <div class="pref">
+            <label class="check"><input type="checkbox" id="exclusive"> When One Starts, Pause the Other</label>
+          </div>
+          <div class="pref">
+            <label id="openInLabel" for="openIn">Open Songs In</label>
+            <button id="openIn" class="menu-btn" aria-labelledby="openInLabel openIn"></button>
+          </div>
+        </div>
+        <p class="note">Dhaara pauses YouTube before it starts Spotify, and pauses Spotify when a video starts. The first time a song opens in the Spotify app, your browser asks to open Spotify. Tick Always Allow.</p>
+      </div>
+
+      <div id="shortcutsBox" class="shortcuts-box" hidden>
+        <h3>Keyboard Shortcuts</h3>
+        <div id="shortcutList" class="shortcuts"></div>
+        <p class="note">To change them, paste <code id="shortcutsUrl">chrome://extensions/shortcuts</code> into the address bar. <button id="copyShortcutsUrl" class="plain">Copy Address</button><br>The browser does not let an extension open that page. There you can also make a shortcut global, so it works while another app is in front.</p>
+      </div>
+
+      <button id="clientToggle" class="plain" hidden>Change Client ID…</button>
+
+      <details id="manual" class="manual" hidden>
+        <summary id="manualTitle">Set It Up by Hand</summary>
+        <ol>
+          <li>Open the <a href="https://developer.spotify.com/dashboard" target="_blank" rel="noopener">Spotify developer dashboard</a> and click <b>Create app</b>. Any name works; tick <b>Web API</b>.</li>
+          <li>Under <b>Redirect URIs</b> add exactly this, then save:<br><code id="redirect"></code> <button id="copyRedirect" class="plain">Copy</button></li>
+          <li>Paste the app’s <b>Client ID</b> here:
+            <div class="row"><input id="clientId" type="text" placeholder="Client ID" aria-label="Client ID" autocomplete="off" spellcheck="false"><button id="saveClient" class="primary">Save and Connect</button></div>
+          </li>
+        </ol>
+      </details>
+
+      <p class="note">Spotify’s rules since Feb 2026: the owner of a Spotify app needs Premium, and at most 5 people (added under <b>User Management</b>) can use one app.</p>
+    </section>
+
+    <section id="empty" class="empty" hidden>
+      <svg class="i" width="32" height="32" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 14.5V5l8-1.5V13M8 14.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM16 13a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>
+      <h2>Nothing Here Yet</h2>
+      <p>Open a YouTube Mix or playlist, click Dhaara in the toolbar, then Open Full View at its top right.</p>
+    </section>
+
+    <section id="controls" class="page-head" hidden>
+      <h1 id="listTitle"></h1>
+      <div id="sources" class="sources"></div>
+      <div id="linkLine" class="link-line" hidden></div>
+      <div class="head-row">
+        <span id="stats" class="stats"></span>
+        <span class="spacer"></span>
+        <button id="matchBtn" class="plain">Find Matches Again</button>
+        <button id="clearBtn" class="plain danger">Clear List…</button>
+      </div>
+      <div id="clearConfirm" hidden></div>
+      <div class="save-opts">
+        <label for="target" id="targetLabel">Save to</label>
+        <button id="target" class="menu-btn" aria-labelledby="targetLabel target"></button>
+        <label for="playlistName" id="nameLabel">Name</label>
+        <input id="playlistName" type="text" placeholder="Playlist name" autocomplete="off">
+        <label class="check" id="publicRow"><input type="checkbox" id="isPublic"> Make Public</label>
+      </div>
+    </section>
+
+    <section id="table" class="group table" aria-label="Songs" hidden>
+      <div class="th">
+        <span class="cbx"><input type="checkbox" id="tickAll" aria-label="Select All Songs"></span>
+        <span class="c-num r">#</span>
+        <span>YouTube</span>
+        <span>Spotify</span>
+        <span>Match</span>
+        <span class="c-time r">Time</span>
+        <span></span>
+      </div>
+      <div id="list"></div>
+      <div id="addSong" class="add-row" hidden>
+        <button id="addToggle" class="plain" aria-expanded="false">Add a Song…</button>
+        <div id="addBox" class="add-box" hidden>
+          <div class="search">
+            <svg class="i" width="14" height="14" viewBox="0 0 20 20" aria-hidden="true"><path d="M8.8 14.1a5.3 5.3 0 1 0 0-10.6 5.3 5.3 0 0 0 0 10.6zM12.7 12.7 16.5 16.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>
+            <input id="addQuery" type="search" placeholder="Search Spotify for a song" aria-label="Search Spotify for a song" autocomplete="off" spellcheck="false">
+          </div>
+          <div id="addResults" class="alts" role="list" aria-label="Spotify results"></div>
+        </div>
+      </div>
+    </section>
+    <p id="credit" class="credit" hidden>Song details and artwork from Spotify.</p>
+  </main>
+
+  <script type="module" src="import.js"></script>
+</body>
+</html>

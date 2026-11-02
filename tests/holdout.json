@@ -1,0 +1,4494 @@
+{
+ "generated": "2026-11-03",
+ "note": "Second set, built blind from fresh Mixes after the first tuning pass. Its first-run failures (series headers, @handles, first-name artists, initials) were then fixed in match.js in general ways. Same format as golden.json.",
+ "items": [
+  {
+   "id": "g001",
+   "videoId": "5Eqb_-j3FDA",
+   "source": "youtube",
+   "item": {
+    "title": "Coke Studio | Season 14 | Pasoori | Ali Sethi x Shae Gill",
+    "channel": "Coke Studio Pakistan",
+    "durationSec": 277,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Pasoori",
+    "artist": "Ali Sethi",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g001d",
+     "uri": "spotify:track:g001d",
+     "name": "Chan Kithan",
+     "artists": [
+      "Ali Sethi",
+      "Shae Gill"
+     ],
+     "album": "Chan Kithan",
+     "durationSec": 304,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g001a",
+     "uri": "spotify:track:g001a",
+     "name": "Pasoori",
+     "artists": [
+      "Ali Sethi",
+      "Shae Gill"
+     ],
+     "album": "Coke Studio Season 14: Pasoori",
+     "durationSec": 275,
+     "correct": true
+    },
+    {
+     "id": "g001c",
+     "uri": "spotify:track:g001c",
+     "name": "Pasoori - Remix",
+     "artists": [
+      "Ishaan Rao"
+     ],
+     "album": "Coke Studio Season 14: Pasoori",
+     "durationSec": 295,
+     "decoy": "version"
+    },
+    {
+     "id": "g001b",
+     "uri": "spotify:track:g001b",
+     "name": "Pasoori",
+     "artists": [
+      "Kabir Anand"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 281,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g002",
+   "videoId": "8of5w7RgcTc",
+   "source": "youtube",
+   "item": {
+    "title": "Afusic - Pal Pal (Official Music Video) Prod. @AliSoomroMusic",
+    "channel": "AFUSIC and AliSoomroMusic",
+    "durationSec": 148,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Pal Pal",
+    "artist": "Afusic",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [],
+   "candidates": [
+    {
+     "id": "g002d",
+     "uri": "spotify:track:g002d",
+     "name": "Jhol",
+     "artists": [
+      "Afusic",
+      "AliSoomroMusic"
+     ],
+     "album": "Jhol",
+     "durationSec": 175,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g002a",
+     "uri": "spotify:track:g002a",
+     "name": "Pal Pal",
+     "artists": [
+      "Afusic",
+      "AliSoomroMusic"
+     ],
+     "album": "Pal Pal",
+     "durationSec": 148,
+     "correct": true
+    },
+    {
+     "id": "g002c",
+     "uri": "spotify:track:g002c",
+     "name": "Pal Pal (Lofi Flip)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Versions",
+     "durationSec": 108,
+     "decoy": "version"
+    },
+    {
+     "id": "g002e",
+     "uri": "spotify:track:g002e",
+     "name": "Pal Pal Ki Kahani",
+     "artists": [
+      "Afusic"
+     ],
+     "album": "Jhol",
+     "durationSec": 163,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g002b",
+     "uri": "spotify:track:g002b",
+     "name": "Pal Pal",
+     "artists": [
+      "Ishaan Rao"
+     ],
+     "album": "Dhun",
+     "durationSec": 117,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g003",
+   "videoId": "xvT1jH8B9AM",
+   "source": "youtube",
+   "item": {
+    "title": "KALYANI (with Shreya Ghoshal) OFFICIAL MUSIC VIDEO | ARJN | KDS | FIFTY4 | RONN | SHREYA GHOSHAL |",
+    "channel": "MONEY VERSE RECORDS and ARJN",
+    "durationSec": 288,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Kalyani",
+    "artist": "ARJN",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g003b",
+     "uri": "spotify:track:g003b",
+     "name": "Kalyani",
+     "artists": [
+      "Kabir Anand"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 292,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g003d",
+     "uri": "spotify:track:g003d",
+     "name": "Tere Bina",
+     "artists": [
+      "ARJN",
+      "Shreya Ghoshal"
+     ],
+     "album": "Tere Bina",
+     "durationSec": 315,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g003a",
+     "uri": "spotify:track:g003a",
+     "name": "Kalyani",
+     "artists": [
+      "ARJN",
+      "Shreya Ghoshal"
+     ],
+     "album": "Kalyani",
+     "durationSec": 291,
+     "correct": true
+    },
+    {
+     "id": "g003c",
+     "uri": "spotify:track:g003c",
+     "name": "Kalyani (Acoustic)",
+     "artists": [
+      "ARJN"
+     ],
+     "album": "Versions",
+     "durationSec": 268,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g004",
+   "videoId": "RLzC55ai0eo",
+   "source": "youtube",
+   "item": {
+    "title": "Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir",
+    "channel": "Jasleen Royal",
+    "durationSec": 199,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Heeriye",
+    "artist": "Jasleen Royal",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g004b",
+     "uri": "spotify:track:g004b",
+     "name": "Heeriye",
+     "artists": [
+      "Simran Gill"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 203,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g004d",
+     "uri": "spotify:track:g004d",
+     "name": "Ranjha",
+     "artists": [
+      "Jasleen Royal",
+      "Arijit Singh"
+     ],
+     "album": "Ranjha",
+     "durationSec": 226,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g004a",
+     "uri": "spotify:track:g004a",
+     "name": "Heeriye",
+     "artists": [
+      "Jasleen Royal",
+      "Arijit Singh"
+     ],
+     "album": "Heeriye",
+     "durationSec": 202,
+     "correct": true
+    },
+    {
+     "id": "g004c",
+     "uri": "spotify:track:g004c",
+     "name": "Heeriye (Acoustic)",
+     "artists": [
+      "Jasleen Royal"
+     ],
+     "album": "Versions",
+     "durationSec": 179,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g005",
+   "videoId": "hgi2MYAFgE8",
+   "source": "youtube",
+   "item": {
+    "title": "SANAM - Gulabi Aankhen",
+    "channel": "Sanam",
+    "durationSec": 229,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Gulabi Aankhen",
+    "artist": "Sanam",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [],
+   "candidates": [
+    {
+     "id": "g005a",
+     "uri": "spotify:track:g005a",
+     "name": "Gulabi Aankhen",
+     "artists": [
+      "Sanam"
+     ],
+     "album": "Gulabi Aankhen",
+     "durationSec": 229,
+     "correct": true
+    },
+    {
+     "id": "g005c",
+     "uri": "spotify:track:g005c",
+     "name": "Gulabi Aankhen (Lofi Flip)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Versions",
+     "durationSec": 189,
+     "decoy": "version"
+    },
+    {
+     "id": "g005e",
+     "uri": "spotify:track:g005e",
+     "name": "Gulabi Aankhen Ki Kahani",
+     "artists": [
+      "Sanam"
+     ],
+     "album": "Tum Hi Ho",
+     "durationSec": 244,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g005b",
+     "uri": "spotify:track:g005b",
+     "name": "Gulabi Aankhen",
+     "artists": [
+      "Rohan Mehra"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 198,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g005d",
+     "uri": "spotify:track:g005d",
+     "name": "Tum Hi Ho",
+     "artists": [
+      "Sanam"
+     ],
+     "album": "Tum Hi Ho",
+     "durationSec": 256,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g006",
+   "videoId": "HoCwa6gnmM0",
+   "source": "youtube",
+   "item": {
+    "title": "Nashe Si Chadh Gayi | Full Song | Befikre, Ranveer Singh, Vaani Kapoor, Arijit Singh, Vishal-Shekhar",
+    "channel": "YRF",
+    "durationSec": 228,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Nashe Si Chadh Gayi",
+    "artist": "Arijit Singh",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g006e",
+     "uri": "spotify:track:g006e",
+     "name": "Nashe Si Chadh Gayi Wali",
+     "artists": [
+      "Arijit Singh"
+     ],
+     "album": "Ude Dil Befikre",
+     "durationSec": 243,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g006b",
+     "uri": "spotify:track:g006b",
+     "name": "Nashe Si Chadh Gayi",
+     "artists": [
+      "Rohan Mehra"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 197,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g006d",
+     "uri": "spotify:track:g006d",
+     "name": "Ude Dil Befikre",
+     "artists": [
+      "Arijit Singh",
+      "Vishal-Shekhar"
+     ],
+     "album": "Ude Dil Befikre",
+     "durationSec": 255,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g006a",
+     "uri": "spotify:track:g006a",
+     "name": "Nashe Si Chadh Gayi",
+     "artists": [
+      "Arijit Singh",
+      "Vishal-Shekhar"
+     ],
+     "album": "Befikre",
+     "durationSec": 231,
+     "correct": true
+    },
+    {
+     "id": "g006c",
+     "uri": "spotify:track:g006c",
+     "name": "Nashe Si Chadh Gayi (Acoustic)",
+     "artists": [
+      "Arijit Singh"
+     ],
+     "album": "Befikre",
+     "durationSec": 208,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g007",
+   "videoId": "zC3UbTf4qrM",
+   "source": "youtube",
+   "item": {
+    "title": "Afghan Jalebi (Ya Baba) FULL VIDEO Song | Phantom | Saif Ali Khan Katrina Kaif Pritam Asrar T-Series",
+    "channel": "T-Series",
+    "durationSec": 206,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Afghan Jalebi",
+    "artist": "Asrar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g007b",
+     "uri": "spotify:track:g007b",
+     "name": "Afghan Jalebi",
+     "artists": [
+      "Varun Bhatt"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 175,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g007d",
+     "uri": "spotify:track:g007d",
+     "name": "Humsafar",
+     "artists": [
+      "Asrar",
+      "Pritam"
+     ],
+     "album": "Humsafar",
+     "durationSec": 233,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g007a",
+     "uri": "spotify:track:g007a",
+     "name": "Afghan Jalebi (From \"Phantom\")",
+     "artists": [
+      "Asrar",
+      "Pritam"
+     ],
+     "album": "Phantom",
+     "durationSec": 204,
+     "correct": true
+    },
+    {
+     "id": "g007c",
+     "uri": "spotify:track:g007c",
+     "name": "Afghan Jalebi - Remix",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Phantom",
+     "durationSec": 224,
+     "decoy": "version"
+    },
+    {
+     "id": "g007e",
+     "uri": "spotify:track:g007e",
+     "name": "Afghan Jalebi Part 2",
+     "artists": [
+      "Asrar"
+     ],
+     "album": "Humsafar",
+     "durationSec": 221,
+     "decoy": "longer-name-same-artist"
+    }
+   ]
+  },
+  {
+   "id": "g008",
+   "videoId": "a3Ue-LN5B9U",
+   "source": "youtube",
+   "item": {
+    "title": "@SaiAbhyankkar - Aasa Kooda (Music Video) | Thejo Bharathwaj | Preity Mukhundhan | Sai Smriti",
+    "channel": "Think Music India",
+    "durationSec": 229,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Aasa Kooda",
+    "artist": "Sai Abhyankkar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g008b",
+     "uri": "spotify:track:g008b",
+     "name": "Aasa Kooda",
+     "artists": [
+      "Meera Joshi"
+     ],
+     "album": "Kuch Pal",
+     "durationSec": 233,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g008d",
+     "uri": "spotify:track:g008d",
+     "name": "Katchi Sera",
+     "artists": [
+      "Sai Abhyankkar",
+      "Sai Smriti"
+     ],
+     "album": "Katchi Sera",
+     "durationSec": 256,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g008a",
+     "uri": "spotify:track:g008a",
+     "name": "Aasa Kooda",
+     "artists": [
+      "Sai Abhyankkar",
+      "Sai Smriti"
+     ],
+     "album": "Aasa Kooda",
+     "durationSec": 227,
+     "correct": true
+    },
+    {
+     "id": "g008c",
+     "uri": "spotify:track:g008c",
+     "name": "Aasa Kooda - Remix",
+     "artists": [
+      "Varun Bhatt"
+     ],
+     "album": "Versions",
+     "durationSec": 247,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g009",
+   "videoId": "9UDkYz64ehA",
+   "source": "youtube",
+   "item": {
+    "title": "\"Ambarsariya Fukrey\" Song By Sona Mohapatra | Pulkit Samrat, Priya Anand",
+    "channel": "T-Series",
+    "durationSec": 149,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Ambarsariya",
+    "artist": "Sona Mohapatra",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g009d",
+     "uri": "spotify:track:g009d",
+     "name": "Dil Ka Jo Haal",
+     "artists": [
+      "Sona Mohapatra",
+      "Prem-Hardeep"
+     ],
+     "album": "Dil Ka Jo Haal",
+     "durationSec": 176,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g009c",
+     "uri": "spotify:track:g009c",
+     "name": "Ambarsariya (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Fukrey",
+     "durationSec": 201,
+     "decoy": "version"
+    },
+    {
+     "id": "g009b",
+     "uri": "spotify:track:g009b",
+     "name": "Ambarsariya",
+     "artists": [
+      "Aarav Nair"
+     ],
+     "album": "Kuch Pal",
+     "durationSec": 153,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g009a",
+     "uri": "spotify:track:g009a",
+     "name": "Ambarsariya",
+     "artists": [
+      "Sona Mohapatra",
+      "Prem-Hardeep"
+     ],
+     "album": "Fukrey",
+     "durationSec": 138,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g010",
+   "videoId": "LK7-_dgAVQE",
+   "source": "youtube",
+   "item": {
+    "title": "Tauba Tauba | Bad Newz | Vicky Kaushal | Triptii Dimri | Karan Aujla",
+    "channel": "Saregama Music",
+    "durationSec": 222,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Tauba Tauba",
+    "artist": "Karan Aujla",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g010b",
+     "uri": "spotify:track:g010b",
+     "name": "Tauba Tauba",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Sapne",
+     "durationSec": 226,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g010d",
+     "uri": "spotify:track:g010d",
+     "name": "Jaanam",
+     "artists": [
+      "Karan Aujla"
+     ],
+     "album": "Jaanam",
+     "durationSec": 249,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g010a",
+     "uri": "spotify:track:g010a",
+     "name": "Tauba Tauba (From \"Bad Newz\")",
+     "artists": [
+      "Karan Aujla"
+     ],
+     "album": "Bad Newz",
+     "durationSec": 220,
+     "correct": true
+    },
+    {
+     "id": "g010c",
+     "uri": "spotify:track:g010c",
+     "name": "Tauba Tauba - Remix",
+     "artists": [
+      "Zoya Qureshi"
+     ],
+     "album": "Bad Newz",
+     "durationSec": 240,
+     "decoy": "version"
+    },
+    {
+     "id": "g010e",
+     "uri": "spotify:track:g010e",
+     "name": "Bad Newz",
+     "artists": [
+      "Karan Aujla"
+     ],
+     "album": "Bad Newz",
+     "durationSec": 242,
+     "decoy": "film-title-track"
+    }
+   ]
+  },
+  {
+   "id": "g011",
+   "videoId": "czgm5uaO3gI",
+   "source": "youtube",
+   "item": {
+    "title": "Lutt Le Gaya - Lyrical | Dhurandhar | Ranveer Singh, Akshaye Khanna, Shashwat Sachdev, Simran C",
+    "channel": "Saregama Music",
+    "durationSec": 258,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Lutt Le Gaya",
+    "artist": "Shashwat Sachdev",
+    "version": null
+   },
+   "unsure": true,
+   "expectHigh": false,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g011e",
+     "uri": "spotify:track:g011e",
+     "name": "Lutt Le Gaya Wali",
+     "artists": [
+      "Shashwat Sachdev"
+     ],
+     "album": "Gehra Hua",
+     "durationSec": 273,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g011b",
+     "uri": "spotify:track:g011b",
+     "name": "Lutt Le Gaya",
+     "artists": [
+      "Pranav Iyer"
+     ],
+     "album": "Rooh",
+     "durationSec": 227,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g011d",
+     "uri": "spotify:track:g011d",
+     "name": "Gehra Hua",
+     "artists": [
+      "Shashwat Sachdev",
+      "Simran Choudhary"
+     ],
+     "album": "Gehra Hua",
+     "durationSec": 285,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g011a",
+     "uri": "spotify:track:g011a",
+     "name": "Lutt Le Gaya",
+     "artists": [
+      "Shashwat Sachdev",
+      "Simran Choudhary"
+     ],
+     "album": "Dhurandhar",
+     "durationSec": 261,
+     "correct": true
+    },
+    {
+     "id": "g011c",
+     "uri": "spotify:track:g011c",
+     "name": "Lutt Le Gaya (Acoustic)",
+     "artists": [
+      "Shashwat Sachdev"
+     ],
+     "album": "Dhurandhar",
+     "durationSec": 238,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g012",
+   "videoId": "oAVhUAaVCVQ",
+   "source": "youtube",
+   "item": {
+    "title": "Lyrical: Chammak Challo | Ra One | ShahRukh Khan | Kareena Kapoor",
+    "channel": "T-Series",
+    "durationSec": 246,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Chammak Challo",
+    "artist": "Akon",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g012e",
+     "uri": "spotify:track:g012e",
+     "name": "Chammak Challo Baby",
+     "artists": [
+      "Akon"
+     ],
+     "album": "Dildara",
+     "durationSec": 261,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g012d",
+     "uri": "spotify:track:g012d",
+     "name": "Dildara",
+     "artists": [
+      "Akon",
+      "Hamsika Iyer",
+      "Vishal-Shekhar"
+     ],
+     "album": "Dildara",
+     "durationSec": 273,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g012c",
+     "uri": "spotify:track:g012c",
+     "name": "Chammak Challo (Unplugged)",
+     "artists": [
+      "Akon"
+     ],
+     "album": "Ra.One (Original Motion Picture Soundtrack)",
+     "durationSec": 281,
+     "decoy": "version"
+    },
+    {
+     "id": "g012b",
+     "uri": "spotify:track:g012b",
+     "name": "Chammak Challo",
+     "artists": [
+      "Rohan Mehra"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 215,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g012a",
+     "uri": "spotify:track:g012a",
+     "name": "Chammak Challo (From \"Ra.One\")",
+     "artists": [
+      "Akon",
+      "Hamsika Iyer",
+      "Vishal-Shekhar"
+     ],
+     "album": "Ra.One (Original Motion Picture Soundtrack)",
+     "durationSec": 240,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g013",
+   "videoId": "GvXDq-P1NB8",
+   "source": "youtube",
+   "item": {
+    "title": "Akhiyaan Gulaab (Song): Shahid Kapoor, Kriti Sanon | Mitraz | Teri Baaton Mein Aisa Uljha Jiya",
+    "channel": "T-Series",
+    "durationSec": 156,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Akhiyaan Gulaab",
+    "artist": "Mitraz",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g013e",
+     "uri": "spotify:track:g013e",
+     "name": "Akhiyaan Gulaab Ki Kahani",
+     "artists": [
+      "Mitraz"
+     ],
+     "album": "Maahi Ve",
+     "durationSec": 171,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g013d",
+     "uri": "spotify:track:g013d",
+     "name": "Maahi Ve",
+     "artists": [
+      "Mitraz"
+     ],
+     "album": "Maahi Ve",
+     "durationSec": 183,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g013c",
+     "uri": "spotify:track:g013c",
+     "name": "Akhiyaan Gulaab (Lofi Flip)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Teri Baaton Mein Aisa Uljha Jiya (Original Motion Picture Soundtrack)",
+     "durationSec": 116,
+     "decoy": "version"
+    },
+    {
+     "id": "g013b",
+     "uri": "spotify:track:g013b",
+     "name": "Akhiyaan Gulaab",
+     "artists": [
+      "Pranav Iyer"
+     ],
+     "album": "Rooh",
+     "durationSec": 125,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g013a",
+     "uri": "spotify:track:g013a",
+     "name": "Akhiyaan Gulaab (From \"Teri Baaton Mein Aisa Uljha Jiya\")",
+     "artists": [
+      "Mitraz"
+     ],
+     "album": "Teri Baaton Mein Aisa Uljha Jiya (Original Motion Picture Soundtrack)",
+     "durationSec": 156,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g014",
+   "videoId": "DDvapuQGV84",
+   "source": "youtube",
+   "item": {
+    "title": "Tu Jaana Na Piya | Official Music Video | New Life | KING",
+    "channel": "King",
+    "durationSec": 247,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Tu Jaana Na Piya",
+    "artist": "King",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g014a",
+     "uri": "spotify:track:g014a",
+     "name": "Tu Jaana Na Piya",
+     "artists": [
+      "King"
+     ],
+     "album": "New Life",
+     "durationSec": 250,
+     "correct": true
+    },
+    {
+     "id": "g014c",
+     "uri": "spotify:track:g014c",
+     "name": "Tu Jaana Na Piya (Acoustic)",
+     "artists": [
+      "King"
+     ],
+     "album": "New Life",
+     "durationSec": 227,
+     "decoy": "version"
+    },
+    {
+     "id": "g014e",
+     "uri": "spotify:track:g014e",
+     "name": "Tu Jaana Na Piya Wali",
+     "artists": [
+      "King"
+     ],
+     "album": "Maan Meri Jaan",
+     "durationSec": 262,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g014b",
+     "uri": "spotify:track:g014b",
+     "name": "Tu Jaana Na Piya",
+     "artists": [
+      "Harleen Bedi"
+     ],
+     "album": "Dhun",
+     "durationSec": 216,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g014d",
+     "uri": "spotify:track:g014d",
+     "name": "Maan Meri Jaan",
+     "artists": [
+      "King"
+     ],
+     "album": "Maan Meri Jaan",
+     "durationSec": 274,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g015",
+   "videoId": "S-ezhTXPVGU",
+   "source": "youtube",
+   "item": {
+    "title": "SAKHIYAAN (Full Song) Maninder Buttar | MixSingh | Babbu | Punjabi Songs | Sakhiyan | Ishtar Punjabi",
+    "channel": "Ishtar Punjabi",
+    "durationSec": 199,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Sakhiyaan",
+    "artist": "Maninder Buttar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g015b",
+     "uri": "spotify:track:g015b",
+     "name": "Sakhiyaan",
+     "artists": [
+      "Aarav Nair"
+     ],
+     "album": "Kuch Pal",
+     "durationSec": 203,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g015d",
+     "uri": "spotify:track:g015d",
+     "name": "Dil Mera",
+     "artists": [
+      "Maninder Buttar",
+      "MixSingh",
+      "Babbu"
+     ],
+     "album": "Dil Mera",
+     "durationSec": 226,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g015a",
+     "uri": "spotify:track:g015a",
+     "name": "Sakhiyaan",
+     "artists": [
+      "Maninder Buttar",
+      "MixSingh",
+      "Babbu"
+     ],
+     "album": "Sakhiyaan",
+     "durationSec": 197,
+     "correct": true
+    },
+    {
+     "id": "g015c",
+     "uri": "spotify:track:g015c",
+     "name": "Sakhiyaan - Remix",
+     "artists": [
+      "Rohan Mehra"
+     ],
+     "album": "Versions",
+     "durationSec": 217,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g016",
+   "videoId": "2eliQ_KR8yA",
+   "source": "youtube",
+   "item": {
+    "title": "KHAAB | AKHIL | PARMISH VERMA |  PUNJABI SONG 2025 | CROWN RECORDS | LATEST PUNJABI 2025 |",
+    "channel": "Crown Records",
+    "durationSec": 220,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Khaab",
+    "artist": "Akhil",
+    "version": null
+   },
+   "unsure": true,
+   "expectHigh": false,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g016a",
+     "uri": "spotify:track:g016a",
+     "name": "Khaab",
+     "artists": [
+      "Akhil"
+     ],
+     "album": "Khaab",
+     "durationSec": 214,
+     "correct": true
+    },
+    {
+     "id": "g016c",
+     "uri": "spotify:track:g016c",
+     "name": "Khaab (Unplugged)",
+     "artists": [
+      "Akhil"
+     ],
+     "album": "Versions",
+     "durationSec": 255,
+     "decoy": "version"
+    },
+    {
+     "id": "g016b",
+     "uri": "spotify:track:g016b",
+     "name": "Khaab",
+     "artists": [
+      "Sneha Pillai"
+     ],
+     "album": "Khamoshi",
+     "durationSec": 189,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g016d",
+     "uri": "spotify:track:g016d",
+     "name": "Duniyaa",
+     "artists": [
+      "Akhil"
+     ],
+     "album": "Duniyaa",
+     "durationSec": 247,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g017",
+   "videoId": "hVCYwwFwGEE",
+   "source": "youtube",
+   "item": {
+    "title": "Luka Chuppi: Duniyaa Full Video Song | Kartik Aaryan Kriti Sanon | Akhil | Dhvani B",
+    "channel": "T-Series",
+    "durationSec": 232,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Duniyaa",
+    "artist": "Akhil",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g017a",
+     "uri": "spotify:track:g017a",
+     "name": "Duniyaa (From \"Luka Chuppi\")",
+     "artists": [
+      "Akhil",
+      "Dhvani Bhanushali"
+     ],
+     "album": "Luka Chuppi (Original Motion Picture Soundtrack)",
+     "durationSec": 226,
+     "correct": true
+    },
+    {
+     "id": "g017c",
+     "uri": "spotify:track:g017c",
+     "name": "Duniyaa (Unplugged)",
+     "artists": [
+      "Akhil"
+     ],
+     "album": "Luka Chuppi (Original Motion Picture Soundtrack)",
+     "durationSec": 267,
+     "decoy": "version"
+    },
+    {
+     "id": "g017e",
+     "uri": "spotify:track:g017e",
+     "name": "Luka Chuppi",
+     "artists": [
+      "Akhil",
+      "Dhvani Bhanushali"
+     ],
+     "album": "Luka Chuppi",
+     "durationSec": 252,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g017b",
+     "uri": "spotify:track:g017b",
+     "name": "Duniyaa",
+     "artists": [
+      "Varun Bhatt"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 201,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g017d",
+     "uri": "spotify:track:g017d",
+     "name": "Poster Lagwa Do",
+     "artists": [
+      "Akhil",
+      "Dhvani Bhanushali"
+     ],
+     "album": "Poster Lagwa Do",
+     "durationSec": 259,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g018",
+   "videoId": "A66TYFdz8YA",
+   "source": "youtube",
+   "item": {
+    "title": "King - Tu Aake Dekhle | The Carnival | The Last Ride | Prod. by Shahbeatz | Latest Hit Songs 2020",
+    "channel": "King",
+    "durationSec": 324,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Tu Aake Dekhle",
+    "artist": "King",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g018b",
+     "uri": "spotify:track:g018b",
+     "name": "Tu Aake Dekhle",
+     "artists": [
+      "Sneha Pillai"
+     ],
+     "album": "Khamoshi",
+     "durationSec": 293,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g018d",
+     "uri": "spotify:track:g018d",
+     "name": "Maan Meri Jaan",
+     "artists": [
+      "King"
+     ],
+     "album": "Maan Meri Jaan",
+     "durationSec": 351,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g018a",
+     "uri": "spotify:track:g018a",
+     "name": "Tu Aake Dekhle",
+     "artists": [
+      "King"
+     ],
+     "album": "The Carnival",
+     "durationSec": 313,
+     "correct": true
+    },
+    {
+     "id": "g018c",
+     "uri": "spotify:track:g018c",
+     "name": "Tu Aake Dekhle (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "The Carnival",
+     "durationSec": 376,
+     "decoy": "version"
+    },
+    {
+     "id": "g018e",
+     "uri": "spotify:track:g018e",
+     "name": "Tu Aake Dekhle Ke Baad",
+     "artists": [
+      "King"
+     ],
+     "album": "Maan Meri Jaan",
+     "durationSec": 339,
+     "decoy": "longer-name-same-artist"
+    }
+   ]
+  },
+  {
+   "id": "g019",
+   "videoId": "BddP6PYo2gs",
+   "source": "youtube",
+   "item": {
+    "title": "Kesariya - Brahmāstra | Ranbir Kapoor, Alia Bhatt | Pritam | Arijit Singh | Amitabh Bhattacharya| 4K",
+    "channel": "Sony Music India",
+    "durationSec": 173,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Kesariya",
+    "artist": "Pritam",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g019c",
+     "uri": "spotify:track:g019c",
+     "name": "Kesariya (Acoustic)",
+     "artists": [
+      "Pritam"
+     ],
+     "album": "Brahmastra",
+     "durationSec": 153,
+     "decoy": "version"
+    },
+    {
+     "id": "g019e",
+     "uri": "spotify:track:g019e",
+     "name": "Brahmastra",
+     "artists": [
+      "Pritam",
+      "Arijit Singh"
+     ],
+     "album": "Brahmastra",
+     "durationSec": 193,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g019b",
+     "uri": "spotify:track:g019b",
+     "name": "Kesariya",
+     "artists": [
+      "Aarav Nair"
+     ],
+     "album": "Kuch Pal",
+     "durationSec": 177,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g019d",
+     "uri": "spotify:track:g019d",
+     "name": "Deva Deva",
+     "artists": [
+      "Pritam",
+      "Arijit Singh",
+      "Amitabh Bhattacharya"
+     ],
+     "album": "Deva Deva",
+     "durationSec": 200,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g019a",
+     "uri": "spotify:track:g019a",
+     "name": "Kesariya (From \"Brahmastra\")",
+     "artists": [
+      "Pritam",
+      "Arijit Singh",
+      "Amitabh Bhattacharya"
+     ],
+     "album": "Brahmastra",
+     "durationSec": 176,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g020",
+   "videoId": "UbMgcdmYC70",
+   "source": "youtube",
+   "item": {
+    "title": "Malang Sajna (Video) Sachet Tandon, Parampara Tandon | Adil Shaikh, Kumaar | Bhushan Kumar",
+    "channel": "T-Series",
+    "durationSec": 158,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Malang Sajna",
+    "artist": "Sachet Tandon",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g020b",
+     "uri": "spotify:track:g020b",
+     "name": "Malang Sajna",
+     "artists": [
+      "Nikhil Arora"
+     ],
+     "album": "Single",
+     "durationSec": 162,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g020d",
+     "uri": "spotify:track:g020d",
+     "name": "Mehram",
+     "artists": [
+      "Sachet Tandon",
+      "Parampara Tandon"
+     ],
+     "album": "Mehram",
+     "durationSec": 185,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g020a",
+     "uri": "spotify:track:g020a",
+     "name": "Malang Sajna",
+     "artists": [
+      "Sachet Tandon",
+      "Parampara Tandon"
+     ],
+     "album": "Malang Sajna",
+     "durationSec": 156,
+     "correct": true
+    },
+    {
+     "id": "g020c",
+     "uri": "spotify:track:g020c",
+     "name": "Malang Sajna - Remix",
+     "artists": [
+      "Pranav Iyer"
+     ],
+     "album": "Versions",
+     "durationSec": 176,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g021",
+   "videoId": "RpE-hVumiDI",
+   "source": "youtube",
+   "item": {
+    "title": "Dekhha Tenu - Lyrical Video | Mr. and Mrs. Mahi | Janhvi Kapoor, Rajkummar Rao | Mohammad Faiz |",
+    "channel": "SonyMusicIndiaVEVO",
+    "durationSec": 285,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Dekhha Tenu",
+    "artist": "Mohammad Faiz",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g021d",
+     "uri": "spotify:track:g021d",
+     "name": "Lehra Do",
+     "artists": [
+      "Mohammad Faiz"
+     ],
+     "album": "Lehra Do",
+     "durationSec": 312,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g021a",
+     "uri": "spotify:track:g021a",
+     "name": "Dekhha Tenu (From \"Mr. & Mrs. Mahi\")",
+     "artists": [
+      "Mohammad Faiz"
+     ],
+     "album": "Mr. & Mrs. Mahi",
+     "durationSec": 274,
+     "correct": true
+    },
+    {
+     "id": "g021c",
+     "uri": "spotify:track:g021c",
+     "name": "Dekhha Tenu (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Mr. & Mrs. Mahi",
+     "durationSec": 337,
+     "decoy": "version"
+    },
+    {
+     "id": "g021e",
+     "uri": "spotify:track:g021e",
+     "name": "Dekhha Tenu Ke Baad",
+     "artists": [
+      "Mohammad Faiz"
+     ],
+     "album": "Lehra Do",
+     "durationSec": 300,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g021b",
+     "uri": "spotify:track:g021b",
+     "name": "Dekhha Tenu",
+     "artists": [
+      "Pranav Iyer"
+     ],
+     "album": "Rooh",
+     "durationSec": 254,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g022",
+   "videoId": "BBAyRBTfsOU",
+   "source": "youtube",
+   "item": {
+    "title": "Vaaste Song: Dhvani Bhanushali, Tanishk Bagchi | Nikhil D'Souza | Bhushan Kumar | Radhika R, Vinay S",
+    "channel": "T-Series",
+    "durationSec": 267,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Vaaste",
+    "artist": "Dhvani Bhanushali",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g022d",
+     "uri": "spotify:track:g022d",
+     "name": "Leja Re",
+     "artists": [
+      "Dhvani Bhanushali",
+      "Nikhil D'Souza"
+     ],
+     "album": "Leja Re",
+     "durationSec": 294,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g022a",
+     "uri": "spotify:track:g022a",
+     "name": "Vaaste",
+     "artists": [
+      "Dhvani Bhanushali",
+      "Nikhil D'Souza"
+     ],
+     "album": "Vaaste",
+     "durationSec": 270,
+     "correct": true
+    },
+    {
+     "id": "g022c",
+     "uri": "spotify:track:g022c",
+     "name": "Vaaste (Acoustic)",
+     "artists": [
+      "Dhvani Bhanushali"
+     ],
+     "album": "Versions",
+     "durationSec": 247,
+     "decoy": "version"
+    },
+    {
+     "id": "g022b",
+     "uri": "spotify:track:g022b",
+     "name": "Vaaste",
+     "artists": [
+      "Tara Menon"
+     ],
+     "album": "Rooh",
+     "durationSec": 236,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g023",
+   "videoId": "Etkd-07gnxM",
+   "source": "youtube",
+   "item": {
+    "title": "Dunki: O Maahi (Full Video) | Shah Rukh Khan | Taapsee Pannu | Pritam | Arijit Singh | Irshad Kamil",
+    "channel": "T-Series",
+    "durationSec": 246,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "O Maahi",
+    "artist": "Pritam",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g023d",
+     "uri": "spotify:track:g023d",
+     "name": "Lutt Putt Gaya",
+     "artists": [
+      "Pritam",
+      "Arijit Singh"
+     ],
+     "album": "Lutt Putt Gaya",
+     "durationSec": 273,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g023a",
+     "uri": "spotify:track:g023a",
+     "name": "O Maahi (From \"Dunki\")",
+     "artists": [
+      "Pritam",
+      "Arijit Singh"
+     ],
+     "album": "Dunki (Original Motion Picture Soundtrack)",
+     "durationSec": 235,
+     "correct": true
+    },
+    {
+     "id": "g023c",
+     "uri": "spotify:track:g023c",
+     "name": "O Maahi (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Dunki (Original Motion Picture Soundtrack)",
+     "durationSec": 298,
+     "decoy": "version"
+    },
+    {
+     "id": "g023e",
+     "uri": "spotify:track:g023e",
+     "name": "Dunki",
+     "artists": [
+      "Pritam",
+      "Arijit Singh"
+     ],
+     "album": "Dunki",
+     "durationSec": 266,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g023b",
+     "uri": "spotify:track:g023b",
+     "name": "O Maahi",
+     "artists": [
+      "Kabir Anand"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 250,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g024",
+   "videoId": "8sLS2knUa6Y",
+   "source": "youtube",
+   "item": {
+    "title": "Phir Aur Kya Chahiye| Zara Hatke Zara Bachke| Vicky K, Sara Ali K, Arijit Singh,Sachin-Jigar,Amitabh",
+    "channel": "Saregama Music",
+    "durationSec": 216,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Phir Aur Kya Chahiye",
+    "artist": "Arijit Singh",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g024e",
+     "uri": "spotify:track:g024e",
+     "name": "Phir Aur Kya Chahiye Ke Baad",
+     "artists": [
+      "Arijit Singh"
+     ],
+     "album": "Tere Vaaste",
+     "durationSec": 231,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g024d",
+     "uri": "spotify:track:g024d",
+     "name": "Tere Vaaste",
+     "artists": [
+      "Arijit Singh",
+      "Sachin-Jigar"
+     ],
+     "album": "Tere Vaaste",
+     "durationSec": 243,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g024c",
+     "uri": "spotify:track:g024c",
+     "name": "Phir Aur Kya Chahiye (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Zara Hatke Zara Bachke",
+     "durationSec": 268,
+     "decoy": "version"
+    },
+    {
+     "id": "g024b",
+     "uri": "spotify:track:g024b",
+     "name": "Phir Aur Kya Chahiye",
+     "artists": [
+      "Varun Bhatt"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 185,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g024a",
+     "uri": "spotify:track:g024a",
+     "name": "Phir Aur Kya Chahiye (From \"Zara Hatke Zara Bachke\")",
+     "artists": [
+      "Arijit Singh",
+      "Sachin-Jigar"
+     ],
+     "album": "Zara Hatke Zara Bachke",
+     "durationSec": 205,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g025",
+   "videoId": "EkxOXF9J77w",
+   "source": "youtube",
+   "item": {
+    "title": "Saree Ke Fall Sa - Full Video | Shahid, Sonakshi | Antara Mitra, Nakash Aziz | R...Rajkumar | Pritam",
+    "channel": "Sony Music India",
+    "durationSec": 248,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Saree Ke Fall Sa",
+    "artist": "Nakash Aziz",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g025a",
+     "uri": "spotify:track:g025a",
+     "name": "Saree Ke Fall Sa (From \"R... Rajkumar\")",
+     "artists": [
+      "Nakash Aziz",
+      "Antara Mitra",
+      "Pritam"
+     ],
+     "album": "R... Rajkumar",
+     "durationSec": 251,
+     "correct": true
+    },
+    {
+     "id": "g025c",
+     "uri": "spotify:track:g025c",
+     "name": "Saree Ke Fall Sa (Acoustic)",
+     "artists": [
+      "Nakash Aziz"
+     ],
+     "album": "R... Rajkumar",
+     "durationSec": 228,
+     "decoy": "version"
+    },
+    {
+     "id": "g025e",
+     "uri": "spotify:track:g025e",
+     "name": "R... Rajkumar",
+     "artists": [
+      "Nakash Aziz",
+      "Antara Mitra"
+     ],
+     "album": "R... Rajkumar",
+     "durationSec": 268,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g025b",
+     "uri": "spotify:track:g025b",
+     "name": "Saree Ke Fall Sa",
+     "artists": [
+      "Kabir Anand"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 252,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g025d",
+     "uri": "spotify:track:g025d",
+     "name": "Gandi Baat",
+     "artists": [
+      "Nakash Aziz",
+      "Antara Mitra",
+      "Pritam"
+     ],
+     "album": "Gandi Baat",
+     "durationSec": 275,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g026",
+   "videoId": "1BVgpX4w0Wk",
+   "source": "youtube",
+   "item": {
+    "title": "Gali Gali Full Video Song | KGF | Neha Kakkar | Mouni Roy | Tanishk Bagchi | Rashmi Virag |T-SERIES",
+    "channel": "T-Series",
+    "durationSec": 187,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Gali Gali",
+    "artist": "Neha Kakkar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g026a",
+     "uri": "spotify:track:g026a",
+     "name": "Gali Gali (From \"KGF\")",
+     "artists": [
+      "Neha Kakkar",
+      "Tanishk Bagchi"
+     ],
+     "album": "KGF (Original Motion Picture Soundtrack)",
+     "durationSec": 176,
+     "correct": true
+    },
+    {
+     "id": "g026c",
+     "uri": "spotify:track:g026c",
+     "name": "Gali Gali (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "KGF (Original Motion Picture Soundtrack)",
+     "durationSec": 239,
+     "decoy": "version"
+    },
+    {
+     "id": "g026e",
+     "uri": "spotify:track:g026e",
+     "name": "Gali Gali Ke Baad",
+     "artists": [
+      "Neha Kakkar"
+     ],
+     "album": "Dilbar",
+     "durationSec": 202,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g026b",
+     "uri": "spotify:track:g026b",
+     "name": "Gali Gali",
+     "artists": [
+      "Ishaan Rao"
+     ],
+     "album": "Dhun",
+     "durationSec": 156,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g026d",
+     "uri": "spotify:track:g026d",
+     "name": "Dilbar",
+     "artists": [
+      "Neha Kakkar",
+      "Tanishk Bagchi"
+     ],
+     "album": "Dilbar",
+     "durationSec": 214,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g027",
+   "videoId": "UdsO4SM4wKI",
+   "source": "youtube",
+   "item": {
+    "title": "Mere Mehboob | Vicky Vidya Ka Woh Wala Video | Rajkummar | Triptii Dimri |Sachin-Jigar,Shilpa,Sachet",
+    "channel": "T-Series",
+    "durationSec": 233,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Mere Mehboob",
+    "artist": "Sachin-Jigar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g027a",
+     "uri": "spotify:track:g027a",
+     "name": "Mere Mehboob (From \"Vicky Vidya Ka Woh Wala Video\")",
+     "artists": [
+      "Sachin-Jigar",
+      "Shilpa Rao",
+      "Sachet Tandon"
+     ],
+     "album": "Vicky Vidya Ka Woh Wala Video",
+     "durationSec": 227,
+     "correct": true
+    },
+    {
+     "id": "g027c",
+     "uri": "spotify:track:g027c",
+     "name": "Mere Mehboob (Unplugged)",
+     "artists": [
+      "Sachin-Jigar"
+     ],
+     "album": "Vicky Vidya Ka Woh Wala Video",
+     "durationSec": 268,
+     "decoy": "version"
+    },
+    {
+     "id": "g027e",
+     "uri": "spotify:track:g027e",
+     "name": "Mere Mehboob Baby",
+     "artists": [
+      "Sachin-Jigar"
+     ],
+     "album": "Aaj Ki Raat",
+     "durationSec": 248,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g027b",
+     "uri": "spotify:track:g027b",
+     "name": "Mere Mehboob",
+     "artists": [
+      "Harleen Bedi"
+     ],
+     "album": "Dhun",
+     "durationSec": 202,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g027d",
+     "uri": "spotify:track:g027d",
+     "name": "Aaj Ki Raat",
+     "artists": [
+      "Sachin-Jigar",
+      "Shilpa Rao",
+      "Sachet Tandon"
+     ],
+     "album": "Aaj Ki Raat",
+     "durationSec": 260,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g028",
+   "videoId": "XLqmL9cPN1E",
+   "source": "youtube",
+   "item": {
+    "title": "Teri Baaton Mein Aisa Uljha Jiya (Title Track): Shahid Kapoor, Kriti Sanon | Raghav,Tanishk,Asees",
+    "channel": "T-Series",
+    "durationSec": 152,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Teri Baaton Mein Aisa Uljha Jiya",
+    "artist": "Raghav Chaitanya",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g028b",
+     "uri": "spotify:track:g028b",
+     "name": "Teri Baaton Mein Aisa Uljha Jiya",
+     "artists": [
+      "Nikhil Arora"
+     ],
+     "album": "Single",
+     "durationSec": 156,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g028d",
+     "uri": "spotify:track:g028d",
+     "name": "Laal Peeli Akhiyaan",
+     "artists": [
+      "Raghav Chaitanya",
+      "Tanishk Bagchi",
+      "Asees Kaur"
+     ],
+     "album": "Laal Peeli Akhiyaan",
+     "durationSec": 179,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g028a",
+     "uri": "spotify:track:g028a",
+     "name": "Teri Baaton Mein Aisa Uljha Jiya (From \"Teri Baaton Mein Aisa Uljha Jiya\")",
+     "artists": [
+      "Raghav Chaitanya",
+      "Tanishk Bagchi",
+      "Asees Kaur"
+     ],
+     "album": "Teri Baaton Mein Aisa Uljha Jiya (Original Motion Picture Soundtrack)",
+     "durationSec": 146,
+     "correct": true
+    },
+    {
+     "id": "g028c",
+     "uri": "spotify:track:g028c",
+     "name": "Teri Baaton Mein Aisa Uljha Jiya (Unplugged)",
+     "artists": [
+      "Raghav Chaitanya"
+     ],
+     "album": "Teri Baaton Mein Aisa Uljha Jiya (Original Motion Picture Soundtrack)",
+     "durationSec": 187,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g029",
+   "videoId": "IltsOcCj1Ak",
+   "source": "youtube",
+   "item": {
+    "title": "HASEEN - TALWIINDER, NDS, RIPPY (Official Visualizer)",
+    "channel": "Talwiinder",
+    "durationSec": 175,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Haseen",
+    "artist": "Talwiinder",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [],
+   "candidates": [
+    {
+     "id": "g029b",
+     "uri": "spotify:track:g029b",
+     "name": "Haseen",
+     "artists": [
+      "Ayaan Khanna"
+     ],
+     "album": "Sapne",
+     "durationSec": 179,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g029d",
+     "uri": "spotify:track:g029d",
+     "name": "Tu Hai Kahan",
+     "artists": [
+      "Talwiinder",
+      "NDS",
+      "Rippy"
+     ],
+     "album": "Tu Hai Kahan",
+     "durationSec": 202,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g029a",
+     "uri": "spotify:track:g029a",
+     "name": "Haseen",
+     "artists": [
+      "Talwiinder",
+      "NDS",
+      "Rippy"
+     ],
+     "album": "Haseen",
+     "durationSec": 164,
+     "correct": true
+    },
+    {
+     "id": "g029c",
+     "uri": "spotify:track:g029c",
+     "name": "Haseen (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Versions",
+     "durationSec": 227,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g030",
+   "videoId": "8v-TWxPWIWc",
+   "source": "youtube",
+   "item": {
+    "title": "Humsafar (Full Video)  | Varun & Alia Bhatt | Akhil Sachdeva | \"Badrinath Ki Dulhania\"",
+    "channel": "T-Series",
+    "durationSec": 215,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Humsafar",
+    "artist": "Akhil Sachdeva",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g030a",
+     "uri": "spotify:track:g030a",
+     "name": "Humsafar (From \"Badrinath Ki Dulhania\")",
+     "artists": [
+      "Akhil Sachdeva",
+      "Mithoon"
+     ],
+     "album": "Badrinath Ki Dulhania",
+     "durationSec": 213,
+     "correct": true
+    },
+    {
+     "id": "g030c",
+     "uri": "spotify:track:g030c",
+     "name": "Humsafar - Remix",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Badrinath Ki Dulhania",
+     "durationSec": 233,
+     "decoy": "version"
+    },
+    {
+     "id": "g030e",
+     "uri": "spotify:track:g030e",
+     "name": "Badrinath Ki Dulhania",
+     "artists": [
+      "Akhil Sachdeva",
+      "Mithoon"
+     ],
+     "album": "Badrinath Ki Dulhania",
+     "durationSec": 235,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g030b",
+     "uri": "spotify:track:g030b",
+     "name": "Humsafar",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 184,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g030d",
+     "uri": "spotify:track:g030d",
+     "name": "Tamma Tamma Again",
+     "artists": [
+      "Akhil Sachdeva",
+      "Mithoon"
+     ],
+     "album": "Tamma Tamma Again",
+     "durationSec": 242,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g031",
+   "videoId": "nJZcbidTutE",
+   "source": "youtube",
+   "item": {
+    "title": "'Sooraj Dooba Hain' FULL VIDEO SONG | Arijit singh Aditi Singh Sharma | T-SERIES",
+    "channel": "T-Series",
+    "durationSec": 248,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Sooraj Dooba Hain",
+    "artist": "Arijit Singh",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g031d",
+     "uri": "spotify:track:g031d",
+     "name": "Chittiyaan Kalaiyaan",
+     "artists": [
+      "Arijit Singh",
+      "Aditi Singh Sharma",
+      "Amaal Mallik"
+     ],
+     "album": "Chittiyaan Kalaiyaan",
+     "durationSec": 275,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g031a",
+     "uri": "spotify:track:g031a",
+     "name": "Sooraj Dooba Hain (From \"Roy\")",
+     "artists": [
+      "Arijit Singh",
+      "Aditi Singh Sharma",
+      "Amaal Mallik"
+     ],
+     "album": "Roy",
+     "durationSec": 246,
+     "correct": true
+    },
+    {
+     "id": "g031c",
+     "uri": "spotify:track:g031c",
+     "name": "Sooraj Dooba Hain - Remix",
+     "artists": [
+      "Zoya Qureshi"
+     ],
+     "album": "Roy",
+     "durationSec": 266,
+     "decoy": "version"
+    },
+    {
+     "id": "g031e",
+     "uri": "spotify:track:g031e",
+     "name": "Roy",
+     "artists": [
+      "Arijit Singh",
+      "Aditi Singh Sharma"
+     ],
+     "album": "Roy",
+     "durationSec": 268,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g031b",
+     "uri": "spotify:track:g031b",
+     "name": "Sooraj Dooba Hain",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Sapne",
+     "durationSec": 252,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g032",
+   "videoId": "nZhLM-FeV9A",
+   "source": "youtube",
+   "item": {
+    "title": "Halka Halka Full Video | FANNEY KHAN | Aishwarya Rai Bachchan | Rajkummar Rao | Amit Trivedi",
+    "channel": "T-Series",
+    "durationSec": 189,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Halka Halka",
+    "artist": "Amit Trivedi",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g032c",
+     "uri": "spotify:track:g032c",
+     "name": "Halka Halka - Remix",
+     "artists": [
+      "Sneha Pillai"
+     ],
+     "album": "Fanney Khan",
+     "durationSec": 207,
+     "decoy": "version"
+    },
+    {
+     "id": "g032e",
+     "uri": "spotify:track:g032e",
+     "name": "Fanney Khan",
+     "artists": [
+      "Amit Trivedi",
+      "Sunidhi Chauhan"
+     ],
+     "album": "Fanney Khan",
+     "durationSec": 209,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g032b",
+     "uri": "spotify:track:g032b",
+     "name": "Halka Halka",
+     "artists": [
+      "Ayaan Khanna"
+     ],
+     "album": "Sapne",
+     "durationSec": 193,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g032d",
+     "uri": "spotify:track:g032d",
+     "name": "Fraud Saiyaan",
+     "artists": [
+      "Amit Trivedi",
+      "Sunidhi Chauhan"
+     ],
+     "album": "Fraud Saiyaan",
+     "durationSec": 216,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g032a",
+     "uri": "spotify:track:g032a",
+     "name": "Halka Halka (From \"Fanney Khan\")",
+     "artists": [
+      "Amit Trivedi",
+      "Sunidhi Chauhan"
+     ],
+     "album": "Fanney Khan",
+     "durationSec": 187,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g033",
+   "videoId": "ThPinA3THas",
+   "source": "youtube",
+   "item": {
+    "title": "O Meri Laila - Lyrical | Laila Majnu | Jyotica Tangri | Avinash Tiwary & Tripti Dimri",
+    "channel": "Zee Music Company",
+    "durationSec": 289,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "O Meri Laila",
+    "artist": "Atif Aslam",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g033e",
+     "uri": "spotify:track:g033e",
+     "name": "O Meri Laila Ke Baad",
+     "artists": [
+      "Atif Aslam"
+     ],
+     "album": "Aahista",
+     "durationSec": 304,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g033b",
+     "uri": "spotify:track:g033b",
+     "name": "O Meri Laila",
+     "artists": [
+      "Sneha Pillai"
+     ],
+     "album": "Khamoshi",
+     "durationSec": 258,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g033d",
+     "uri": "spotify:track:g033d",
+     "name": "Aahista",
+     "artists": [
+      "Atif Aslam",
+      "Jyotica Tangri",
+      "Joi Barua"
+     ],
+     "album": "Aahista",
+     "durationSec": 316,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g033a",
+     "uri": "spotify:track:g033a",
+     "name": "O Meri Laila (From \"Laila Majnu\")",
+     "artists": [
+      "Atif Aslam",
+      "Jyotica Tangri",
+      "Joi Barua"
+     ],
+     "album": "Laila Majnu",
+     "durationSec": 278,
+     "correct": true
+    },
+    {
+     "id": "g033c",
+     "uri": "spotify:track:g033c",
+     "name": "O Meri Laila (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Laila Majnu",
+     "durationSec": 341,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g034",
+   "videoId": "zRzD3-a9_qc",
+   "source": "youtube",
+   "item": {
+    "title": "Pani Da Rang - Lyrical Video | Vicky Donor | Ayushmann Khurrana | Yami Gautam | Rochak Kohli",
+    "channel": "Sony Music India",
+    "durationSec": 238,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Pani Da Rang",
+    "artist": "Ayushmann Khurrana",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g034d",
+     "uri": "spotify:track:g034d",
+     "name": "Mar Jayian",
+     "artists": [
+      "Ayushmann Khurrana",
+      "Rochak Kohli"
+     ],
+     "album": "Mar Jayian",
+     "durationSec": 265,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g034a",
+     "uri": "spotify:track:g034a",
+     "name": "Pani Da Rang (From \"Vicky Donor\")",
+     "artists": [
+      "Ayushmann Khurrana",
+      "Rochak Kohli"
+     ],
+     "album": "Vicky Donor (Original Motion Picture Soundtrack)",
+     "durationSec": 227,
+     "correct": true
+    },
+    {
+     "id": "g034c",
+     "uri": "spotify:track:g034c",
+     "name": "Pani Da Rang (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Vicky Donor (Original Motion Picture Soundtrack)",
+     "durationSec": 290,
+     "decoy": "version"
+    },
+    {
+     "id": "g034e",
+     "uri": "spotify:track:g034e",
+     "name": "Vicky Donor",
+     "artists": [
+      "Ayushmann Khurrana",
+      "Rochak Kohli"
+     ],
+     "album": "Vicky Donor",
+     "durationSec": 258,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g034b",
+     "uri": "spotify:track:g034b",
+     "name": "Pani Da Rang",
+     "artists": [
+      "Simran Gill"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 242,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g035",
+   "videoId": "o1RducJbUdc",
+   "source": "youtube",
+   "item": {
+    "title": "Tumhi Ho Bandhu - Full Video Song | Cocktail | Saif Ai Khan, Deepika Padukone & Diana Penty | Pritam",
+    "channel": "Sony Music India",
+    "durationSec": 295,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Tumhi Ho Bandhu",
+    "artist": "Kavita Seth",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g035c",
+     "uri": "spotify:track:g035c",
+     "name": "Tumhi Ho Bandhu - Remix",
+     "artists": [
+      "Harleen Bedi"
+     ],
+     "album": "Cocktail",
+     "durationSec": 313,
+     "decoy": "version"
+    },
+    {
+     "id": "g035e",
+     "uri": "spotify:track:g035e",
+     "name": "Cocktail",
+     "artists": [
+      "Kavita Seth",
+      "Neeraj Shridhar"
+     ],
+     "album": "Cocktail",
+     "durationSec": 315,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g035b",
+     "uri": "spotify:track:g035b",
+     "name": "Tumhi Ho Bandhu",
+     "artists": [
+      "Simran Gill"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 299,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g035d",
+     "uri": "spotify:track:g035d",
+     "name": "Yaariyan",
+     "artists": [
+      "Kavita Seth",
+      "Neeraj Shridhar",
+      "Pritam"
+     ],
+     "album": "Yaariyan",
+     "durationSec": 322,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g035a",
+     "uri": "spotify:track:g035a",
+     "name": "Tumhi Ho Bandhu (From \"Cocktail\")",
+     "artists": [
+      "Kavita Seth",
+      "Neeraj Shridhar",
+      "Pritam"
+     ],
+     "album": "Cocktail",
+     "durationSec": 293,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g036",
+   "videoId": "yDv0WSgXJVg",
+   "source": "youtube",
+   "item": {
+    "title": "\"Senorita Zindagi Na Milegi Dobara\" Full HD Video Song | Farhan Akhtar, Hrithik Roshan, Abhay Deol",
+    "channel": "T-Series",
+    "durationSec": 232,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Señorita",
+    "artist": "Farhan Akhtar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g036a",
+     "uri": "spotify:track:g036a",
+     "name": "Señorita (From \"Zindagi Na Milegi Dobara\")",
+     "artists": [
+      "Farhan Akhtar",
+      "Hrithik Roshan",
+      "Abhay Deol",
+      "Maria del Mar Fernández"
+     ],
+     "album": "Zindagi Na Milegi Dobara",
+     "durationSec": 235,
+     "correct": true
+    },
+    {
+     "id": "g036c",
+     "uri": "spotify:track:g036c",
+     "name": "Señorita (Acoustic)",
+     "artists": [
+      "Farhan Akhtar"
+     ],
+     "album": "Zindagi Na Milegi Dobara",
+     "durationSec": 212,
+     "decoy": "version"
+    },
+    {
+     "id": "g036e",
+     "uri": "spotify:track:g036e",
+     "name": "Zindagi Na Milegi Dobara",
+     "artists": [
+      "Farhan Akhtar",
+      "Hrithik Roshan"
+     ],
+     "album": "Zindagi Na Milegi Dobara",
+     "durationSec": 252,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g036b",
+     "uri": "spotify:track:g036b",
+     "name": "Señorita",
+     "artists": [
+      "Ishaan Rao"
+     ],
+     "album": "Dhun",
+     "durationSec": 201,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g036d",
+     "uri": "spotify:track:g036d",
+     "name": "Dil Chahta Hai",
+     "artists": [
+      "Farhan Akhtar",
+      "Hrithik Roshan",
+      "Abhay Deol",
+      "Maria del Mar Fernández"
+     ],
+     "album": "Dil Chahta Hai",
+     "durationSec": 259,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g037",
+   "videoId": "DK_UsATwoxI",
+   "source": "youtube",
+   "item": {
+    "title": "Nazm Nazm - Lyrical | Bareilly Ki Barfi | Kriti Sanon, Ayushmann Khurrana & Rajkummar Rao | Arko",
+    "channel": "Zee Music Company",
+    "durationSec": 236,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Nazm Nazm",
+    "artist": "Arko",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g037d",
+     "uri": "spotify:track:g037d",
+     "name": "Sweety Tera Drama",
+     "artists": [
+      "Arko"
+     ],
+     "album": "Sweety Tera Drama",
+     "durationSec": 263,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g037a",
+     "uri": "spotify:track:g037a",
+     "name": "Nazm Nazm (From \"Bareilly Ki Barfi\")",
+     "artists": [
+      "Arko"
+     ],
+     "album": "Bareilly Ki Barfi",
+     "durationSec": 225,
+     "correct": true
+    },
+    {
+     "id": "g037c",
+     "uri": "spotify:track:g037c",
+     "name": "Nazm Nazm (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Bareilly Ki Barfi",
+     "durationSec": 288,
+     "decoy": "version"
+    },
+    {
+     "id": "g037e",
+     "uri": "spotify:track:g037e",
+     "name": "Bareilly Ki Barfi",
+     "artists": [
+      "Arko"
+     ],
+     "album": "Bareilly Ki Barfi",
+     "durationSec": 256,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g037b",
+     "uri": "spotify:track:g037b",
+     "name": "Nazm Nazm",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Sapne",
+     "durationSec": 240,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g038",
+   "videoId": "AX7t8ZwroHQ",
+   "source": "youtube",
+   "item": {
+    "title": "Lyrical: Kabhi Kabhi Aditi Zindagi | Jaane Tu Ya Jaane Na | A.R. Rahman | Rashid Ali",
+    "channel": "T-Series",
+    "durationSec": 237,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Kabhi Kabhi Aditi",
+    "artist": "Rashid Ali",
+    "version": null
+   },
+   "unsure": true,
+   "expectHigh": false,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g038b",
+     "uri": "spotify:track:g038b",
+     "name": "Kabhi Kabhi Aditi",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Sapne",
+     "durationSec": 241,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g038d",
+     "uri": "spotify:track:g038d",
+     "name": "Pappu Can't Dance",
+     "artists": [
+      "Rashid Ali",
+      "A. R. Rahman"
+     ],
+     "album": "Pappu Can't Dance",
+     "durationSec": 264,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g038a",
+     "uri": "spotify:track:g038a",
+     "name": "Kabhi Kabhi Aditi",
+     "artists": [
+      "Rashid Ali",
+      "A. R. Rahman"
+     ],
+     "album": "Jaane Tu... Ya Jaane Na",
+     "durationSec": 235,
+     "correct": true
+    },
+    {
+     "id": "g038c",
+     "uri": "spotify:track:g038c",
+     "name": "Kabhi Kabhi Aditi - Remix",
+     "artists": [
+      "Zoya Qureshi"
+     ],
+     "album": "Jaane Tu... Ya Jaane Na",
+     "durationSec": 255,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g039",
+   "videoId": "huxhqphtDrM",
+   "source": "youtube",
+   "item": {
+    "title": "Besharam Rang Song | Pathaan | Shah Rukh Khan, Deepika Padukone | Vishal & Sheykhar | Shilpa, Kumaar",
+    "channel": "YRF",
+    "durationSec": 194,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Besharam Rang",
+    "artist": "Shilpa Rao",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g039e",
+     "uri": "spotify:track:g039e",
+     "name": "Pathaan",
+     "artists": [
+      "Shilpa Rao",
+      "Caralisa Monteiro"
+     ],
+     "album": "Pathaan",
+     "durationSec": 214,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g039b",
+     "uri": "spotify:track:g039b",
+     "name": "Besharam Rang",
+     "artists": [
+      "Ayaan Khanna"
+     ],
+     "album": "Sapne",
+     "durationSec": 198,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g039d",
+     "uri": "spotify:track:g039d",
+     "name": "Jhoome Jo Pathaan",
+     "artists": [
+      "Shilpa Rao",
+      "Caralisa Monteiro",
+      "Vishal-Shekhar"
+     ],
+     "album": "Jhoome Jo Pathaan",
+     "durationSec": 221,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g039a",
+     "uri": "spotify:track:g039a",
+     "name": "Besharam Rang (From \"Pathaan\")",
+     "artists": [
+      "Shilpa Rao",
+      "Caralisa Monteiro",
+      "Vishal-Shekhar"
+     ],
+     "album": "Pathaan (Original Motion Picture Soundtrack)",
+     "durationSec": 192,
+     "correct": true
+    },
+    {
+     "id": "g039c",
+     "uri": "spotify:track:g039c",
+     "name": "Besharam Rang - Remix",
+     "artists": [
+      "Sneha Pillai"
+     ],
+     "album": "Pathaan (Original Motion Picture Soundtrack)",
+     "durationSec": 212,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g040",
+   "videoId": "7TRFf7uUfhQ",
+   "source": "youtube",
+   "item": {
+    "title": "Swag Se Swagat | Full Song | Tiger Zinda Hai, Salman Khan, Katrina Kaif, Vishal Dadlani, Neha Bhasin",
+    "channel": "YRF",
+    "durationSec": 234,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Swag Se Swagat",
+    "artist": "Vishal Dadlani",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g040a",
+     "uri": "spotify:track:g040a",
+     "name": "Swag Se Swagat",
+     "artists": [
+      "Vishal Dadlani",
+      "Neha Bhasin",
+      "Vishal-Shekhar"
+     ],
+     "album": "Tiger Zinda Hai",
+     "durationSec": 228,
+     "correct": true
+    },
+    {
+     "id": "g040c",
+     "uri": "spotify:track:g040c",
+     "name": "Swag Se Swagat (Unplugged)",
+     "artists": [
+      "Vishal Dadlani"
+     ],
+     "album": "Tiger Zinda Hai",
+     "durationSec": 269,
+     "decoy": "version"
+    },
+    {
+     "id": "g040e",
+     "uri": "spotify:track:g040e",
+     "name": "Swag Se Swagat Baby",
+     "artists": [
+      "Vishal Dadlani"
+     ],
+     "album": "Dil Diyan Gallan",
+     "durationSec": 249,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g040b",
+     "uri": "spotify:track:g040b",
+     "name": "Swag Se Swagat",
+     "artists": [
+      "Ishaan Rao"
+     ],
+     "album": "Dhun",
+     "durationSec": 203,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g040d",
+     "uri": "spotify:track:g040d",
+     "name": "Dil Diyan Gallan",
+     "artists": [
+      "Vishal Dadlani",
+      "Neha Bhasin",
+      "Vishal-Shekhar"
+     ],
+     "album": "Dil Diyan Gallan",
+     "durationSec": 261,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g041",
+   "videoId": "95I5VaR7GeU",
+   "source": "youtube",
+   "item": {
+    "title": "Laila Main Laila | Raees | Shah Rukh Khan | Sunny Leone | Pawni Pandey | Ram Sampath",
+    "channel": "Zee Music Company",
+    "durationSec": 161,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Laila Main Laila",
+    "artist": "Pawni Pandey",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g041c",
+     "uri": "spotify:track:g041c",
+     "name": "Laila Main Laila - Remix",
+     "artists": [
+      "Nikhil Arora"
+     ],
+     "album": "Raees",
+     "durationSec": 179,
+     "decoy": "version"
+    },
+    {
+     "id": "g041e",
+     "uri": "spotify:track:g041e",
+     "name": "Laila Main Laila Part 2",
+     "artists": [
+      "Pawni Pandey"
+     ],
+     "album": "Zaalima",
+     "durationSec": 176,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g041b",
+     "uri": "spotify:track:g041b",
+     "name": "Laila Main Laila",
+     "artists": [
+      "Zoya Qureshi"
+     ],
+     "album": "Khamoshi",
+     "durationSec": 130,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g041d",
+     "uri": "spotify:track:g041d",
+     "name": "Zaalima",
+     "artists": [
+      "Pawni Pandey",
+      "Ram Sampath"
+     ],
+     "album": "Zaalima",
+     "durationSec": 188,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g041a",
+     "uri": "spotify:track:g041a",
+     "name": "Laila Main Laila (From \"Raees\")",
+     "artists": [
+      "Pawni Pandey",
+      "Ram Sampath"
+     ],
+     "album": "Raees",
+     "durationSec": 159,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g042",
+   "videoId": "_uUdJalMaF8",
+   "source": "youtube",
+   "item": {
+    "title": "Full Song: O SAKI SAKI | Batla House | Nora Fatehi, Tanishk B,Neha K,Tulsi K, B Praak,Vishal-Shekhar",
+    "channel": "T-Series",
+    "durationSec": 205,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "O Saki Saki",
+    "artist": "Neha Kakkar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g042a",
+     "uri": "spotify:track:g042a",
+     "name": "O Saki Saki (From \"Batla House\")",
+     "artists": [
+      "Neha Kakkar",
+      "Tulsi Kumar",
+      "B Praak",
+      "Tanishk Bagchi",
+      "Vishal-Shekhar"
+     ],
+     "album": "Batla House",
+     "durationSec": 208,
+     "correct": true
+    },
+    {
+     "id": "g042c",
+     "uri": "spotify:track:g042c",
+     "name": "O Saki Saki (Acoustic)",
+     "artists": [
+      "Neha Kakkar"
+     ],
+     "album": "Batla House",
+     "durationSec": 185,
+     "decoy": "version"
+    },
+    {
+     "id": "g042e",
+     "uri": "spotify:track:g042e",
+     "name": "Batla House",
+     "artists": [
+      "Neha Kakkar",
+      "Tulsi Kumar"
+     ],
+     "album": "Batla House",
+     "durationSec": 225,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g042b",
+     "uri": "spotify:track:g042b",
+     "name": "O Saki Saki",
+     "artists": [
+      "Simran Gill"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 209,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g042d",
+     "uri": "spotify:track:g042d",
+     "name": "Rula Diya",
+     "artists": [
+      "Neha Kakkar",
+      "Tulsi Kumar",
+      "B Praak",
+      "Tanishk Bagchi",
+      "Vishal-Shekhar"
+     ],
+     "album": "Rula Diya",
+     "durationSec": 232,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g043",
+   "videoId": "l75z7FrYRXI",
+   "source": "youtube",
+   "item": {
+    "title": "Full Song: Muqabla | Street Dancer 3D |A.R. Rahman, Prabhudeva, Varun D, Shraddha K, Tanishk B",
+    "channel": "T-Series",
+    "durationSec": 183,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Muqabla",
+    "artist": "A. R. Rahman",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g043c",
+     "uri": "spotify:track:g043c",
+     "name": "Muqabla (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Street Dancer 3D",
+     "durationSec": 235,
+     "decoy": "version"
+    },
+    {
+     "id": "g043e",
+     "uri": "spotify:track:g043e",
+     "name": "Street Dancer 3D",
+     "artists": [
+      "A. R. Rahman",
+      "Prabhudeva"
+     ],
+     "album": "Street Dancer 3D",
+     "durationSec": 203,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g043b",
+     "uri": "spotify:track:g043b",
+     "name": "Muqabla",
+     "artists": [
+      "Simran Gill"
+     ],
+     "album": "Naya Safar",
+     "durationSec": 187,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g043d",
+     "uri": "spotify:track:g043d",
+     "name": "Garmi",
+     "artists": [
+      "A. R. Rahman",
+      "Prabhudeva",
+      "Tanishk Bagchi",
+      "Yash Narvekar"
+     ],
+     "album": "Garmi",
+     "durationSec": 210,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g043a",
+     "uri": "spotify:track:g043a",
+     "name": "Muqabla (From \"Street Dancer 3D\")",
+     "artists": [
+      "A. R. Rahman",
+      "Prabhudeva",
+      "Tanishk Bagchi",
+      "Yash Narvekar"
+     ],
+     "album": "Street Dancer 3D",
+     "durationSec": 172,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g044",
+   "videoId": "SxoTAvwCr4A",
+   "source": "youtube",
+   "item": {
+    "title": "Malang Song | DHOOM:3 | Aamir Khan, Katrina Kaif | Siddharth Mahadevan, Shilpa Rao, Pritam, Sameer",
+    "channel": "YRF",
+    "durationSec": 341,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Malang",
+    "artist": "Siddharth Mahadevan",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g044a",
+     "uri": "spotify:track:g044a",
+     "name": "Malang",
+     "artists": [
+      "Siddharth Mahadevan",
+      "Shilpa Rao",
+      "Pritam"
+     ],
+     "album": "DHOOM:3",
+     "durationSec": 335,
+     "correct": true
+    },
+    {
+     "id": "g044c",
+     "uri": "spotify:track:g044c",
+     "name": "Malang (Unplugged)",
+     "artists": [
+      "Siddharth Mahadevan"
+     ],
+     "album": "DHOOM:3",
+     "durationSec": 376,
+     "decoy": "version"
+    },
+    {
+     "id": "g044e",
+     "uri": "spotify:track:g044e",
+     "name": "Malang (Title Track)",
+     "artists": [
+      "Ved Sharma",
+      "Asees Kaur"
+     ],
+     "album": "Malang",
+     "durationSec": 287,
+     "decoy": "same-name-famous-other-artist"
+    },
+    {
+     "id": "g044b",
+     "uri": "spotify:track:g044b",
+     "name": "Malang",
+     "artists": [
+      "Meera Joshi"
+     ],
+     "album": "Kuch Pal",
+     "durationSec": 345,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g044d",
+     "uri": "spotify:track:g044d",
+     "name": "Kamli",
+     "artists": [
+      "Siddharth Mahadevan",
+      "Shilpa Rao",
+      "Pritam"
+     ],
+     "album": "Kamli",
+     "durationSec": 368,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g045",
+   "videoId": "kfXy4W0aD40",
+   "source": "youtube",
+   "item": {
+    "title": "Taras | Munjya | Sharvari & Abhay Verma | Sachin-Jigar, Jasmine Sandlas | Amitabh Bhattacharya",
+    "channel": "Zee Music Company",
+    "durationSec": 167,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Taras",
+    "artist": "Sachin-Jigar",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g045d",
+     "uri": "spotify:track:g045d",
+     "name": "Tainu Khabar Nahi",
+     "artists": [
+      "Sachin-Jigar",
+      "Jasmine Sandlas"
+     ],
+     "album": "Tainu Khabar Nahi",
+     "durationSec": 194,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g045a",
+     "uri": "spotify:track:g045a",
+     "name": "Taras (From \"Munjya\")",
+     "artists": [
+      "Sachin-Jigar",
+      "Jasmine Sandlas"
+     ],
+     "album": "Munjya",
+     "durationSec": 165,
+     "correct": true
+    },
+    {
+     "id": "g045c",
+     "uri": "spotify:track:g045c",
+     "name": "Taras - Remix",
+     "artists": [
+      "Zoya Qureshi"
+     ],
+     "album": "Munjya",
+     "durationSec": 185,
+     "decoy": "version"
+    },
+    {
+     "id": "g045e",
+     "uri": "spotify:track:g045e",
+     "name": "Munjya",
+     "artists": [
+      "Sachin-Jigar",
+      "Jasmine Sandlas"
+     ],
+     "album": "Munjya",
+     "durationSec": 187,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g045b",
+     "uri": "spotify:track:g045b",
+     "name": "Taras",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Sapne",
+     "durationSec": 171,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g046",
+   "videoId": "8LZgzAZ2lpQ",
+   "source": "youtube",
+   "item": {
+    "title": "'Abhi Toh Party Shuru Hui Hai' Full Video Song | Khoobsurat | Badshah | Sonam Kapoor | Aastha",
+    "channel": "T-Series",
+    "durationSec": 190,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Abhi Toh Party Shuru Hui Hai",
+    "artist": "Badshah",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g046e",
+     "uri": "spotify:track:g046e",
+     "name": "Khoobsurat",
+     "artists": [
+      "Badshah",
+      "Aastha Gill"
+     ],
+     "album": "Khoobsurat",
+     "durationSec": 210,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g046d",
+     "uri": "spotify:track:g046d",
+     "name": "Naina",
+     "artists": [
+      "Badshah",
+      "Aastha Gill"
+     ],
+     "album": "Naina",
+     "durationSec": 217,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g046c",
+     "uri": "spotify:track:g046c",
+     "name": "Abhi Toh Party Shuru Hui Hai (Lofi Flip)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Khoobsurat",
+     "durationSec": 150,
+     "decoy": "version"
+    },
+    {
+     "id": "g046b",
+     "uri": "spotify:track:g046b",
+     "name": "Abhi Toh Party Shuru Hui Hai",
+     "artists": [
+      "Ayaan Khanna"
+     ],
+     "album": "Sapne",
+     "durationSec": 194,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g046a",
+     "uri": "spotify:track:g046a",
+     "name": "Abhi Toh Party Shuru Hui Hai (From \"Khoobsurat\")",
+     "artists": [
+      "Badshah",
+      "Aastha Gill"
+     ],
+     "album": "Khoobsurat",
+     "durationSec": 190,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g047",
+   "videoId": "KBIq11mNB0I",
+   "source": "youtube",
+   "item": {
+    "title": "Full Video: Malang (Title Track)| Aditya Roy Kapur, Disha Patani, Anil K, Kunal K | Ved S | Mohit S",
+    "channel": "T-Series",
+    "durationSec": 287,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Malang (Title Track)",
+    "artist": "Ved Sharma",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g047e",
+     "uri": "spotify:track:g047e",
+     "name": "Malang",
+     "artists": [
+      "Siddharth Mahadevan",
+      "Shilpa Rao",
+      "Pritam"
+     ],
+     "album": "DHOOM:3",
+     "durationSec": 341,
+     "decoy": "same-name-famous-other-artist"
+    },
+    {
+     "id": "g047b",
+     "uri": "spotify:track:g047b",
+     "name": "Malang (Title Track)",
+     "artists": [
+      "Ayaan Khanna"
+     ],
+     "album": "Sapne",
+     "durationSec": 291,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g047d",
+     "uri": "spotify:track:g047d",
+     "name": "Humraah",
+     "artists": [
+      "Ved Sharma",
+      "Asees Kaur"
+     ],
+     "album": "Humraah",
+     "durationSec": 314,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g047a",
+     "uri": "spotify:track:g047a",
+     "name": "Malang (Title Track)",
+     "artists": [
+      "Ved Sharma",
+      "Asees Kaur"
+     ],
+     "album": "Malang",
+     "durationSec": 281,
+     "correct": true
+    },
+    {
+     "id": "g047c",
+     "uri": "spotify:track:g047c",
+     "name": "Malang (Title Track) (Unplugged)",
+     "artists": [
+      "Ved Sharma"
+     ],
+     "album": "Malang",
+     "durationSec": 322,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g048",
+   "videoId": "K-Ts-NFR62o",
+   "source": "youtube",
+   "item": {
+    "title": "JAB TAK Full Video | M.S. DHONI -THE UNTOLD STORY | Armaan Malik, Amaal Mallik |Sushant Singh Rajput",
+    "channel": "T-Series",
+    "durationSec": 211,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Jab Tak",
+    "artist": "Armaan Malik",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g048d",
+     "uri": "spotify:track:g048d",
+     "name": "Kaun Tujhe",
+     "artists": [
+      "Armaan Malik",
+      "Amaal Mallik"
+     ],
+     "album": "Kaun Tujhe",
+     "durationSec": 238,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g048a",
+     "uri": "spotify:track:g048a",
+     "name": "Jab Tak (From \"M.S. Dhoni - The Untold Story\")",
+     "artists": [
+      "Armaan Malik",
+      "Amaal Mallik"
+     ],
+     "album": "M.S. Dhoni - The Untold Story (Original Motion Picture Soundtrack)",
+     "durationSec": 200,
+     "correct": true
+    },
+    {
+     "id": "g048c",
+     "uri": "spotify:track:g048c",
+     "name": "Jab Tak (Slowed + Reverb)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "M.S. Dhoni - The Untold Story (Original Motion Picture Soundtrack)",
+     "durationSec": 263,
+     "decoy": "version"
+    },
+    {
+     "id": "g048e",
+     "uri": "spotify:track:g048e",
+     "name": "Jab Tak Ke Baad",
+     "artists": [
+      "Armaan Malik"
+     ],
+     "album": "Kaun Tujhe",
+     "durationSec": 226,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g048b",
+     "uri": "spotify:track:g048b",
+     "name": "Jab Tak",
+     "artists": [
+      "Ishaan Rao"
+     ],
+     "album": "Dhun",
+     "durationSec": 180,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g049",
+   "videoId": "uCMYzolEbO0",
+   "source": "youtube",
+   "item": {
+    "title": "Atif Aslam : Darasal Full Video Song | Raabta | Sushant Singh Rajput & Kriti Sanon | Pritam",
+    "channel": "T-Series",
+    "durationSec": 201,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Darasal",
+    "artist": "Atif Aslam",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g049c",
+     "uri": "spotify:track:g049c",
+     "name": "Darasal (Acoustic)",
+     "artists": [
+      "Atif Aslam"
+     ],
+     "album": "Raabta (Original Motion Picture Soundtrack)",
+     "durationSec": 181,
+     "decoy": "version"
+    },
+    {
+     "id": "g049e",
+     "uri": "spotify:track:g049e",
+     "name": "Raabta",
+     "artists": [
+      "Atif Aslam",
+      "Pritam"
+     ],
+     "album": "Raabta",
+     "durationSec": 221,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g049b",
+     "uri": "spotify:track:g049b",
+     "name": "Darasal",
+     "artists": [
+      "Aarav Nair"
+     ],
+     "album": "Kuch Pal",
+     "durationSec": 205,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g049d",
+     "uri": "spotify:track:g049d",
+     "name": "Ik Vaari Aa",
+     "artists": [
+      "Atif Aslam",
+      "Pritam"
+     ],
+     "album": "Ik Vaari Aa",
+     "durationSec": 228,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g049a",
+     "uri": "spotify:track:g049a",
+     "name": "Darasal (From \"Raabta\")",
+     "artists": [
+      "Atif Aslam",
+      "Pritam"
+     ],
+     "album": "Raabta (Original Motion Picture Soundtrack)",
+     "durationSec": 204,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g050",
+   "videoId": "zAU_rsoS5ok",
+   "source": "youtube",
+   "item": {
+    "title": "Raabta Title Song (Full Video) | Deepika Padukone, Sushant Singh Rajput, Kriti Sanon | Pritam, Jam 8",
+    "channel": "T-Series",
+    "durationSec": 215,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Raabta",
+    "artist": "Arijit Singh",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label"
+   ],
+   "candidates": [
+    {
+     "id": "g050d",
+     "uri": "spotify:track:g050d",
+     "name": "Darasal",
+     "artists": [
+      "Arijit Singh",
+      "Nikhita Gandhi",
+      "Pritam"
+     ],
+     "album": "Darasal",
+     "durationSec": 242,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g050a",
+     "uri": "spotify:track:g050a",
+     "name": "Raabta",
+     "artists": [
+      "Arijit Singh",
+      "Nikhita Gandhi",
+      "Pritam"
+     ],
+     "album": "Raabta",
+     "durationSec": 215,
+     "correct": true
+    },
+    {
+     "id": "g050c",
+     "uri": "spotify:track:g050c",
+     "name": "Raabta (Lofi Flip)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Versions",
+     "durationSec": 175,
+     "decoy": "version"
+    },
+    {
+     "id": "g050b",
+     "uri": "spotify:track:g050b",
+     "name": "Raabta",
+     "artists": [
+      "Rohan Mehra"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 184,
+     "decoy": "same-name-other-artist"
+    }
+   ]
+  },
+  {
+   "id": "g051",
+   "videoId": "cYOB941gyXI",
+   "source": "youtube",
+   "item": {
+    "title": "Hawayein - Lyrical Video | Jab Harry Met Sejal | Shah Rukh Khan, Anushka | Arijit Singh | Pritam",
+    "channel": "Sony Music India",
+    "durationSec": 292,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Hawayein",
+    "artist": "Arijit Singh",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g051c",
+     "uri": "spotify:track:g051c",
+     "name": "Hawayein (Unplugged)",
+     "artists": [
+      "Arijit Singh"
+     ],
+     "album": "Jab Harry Met Sejal",
+     "durationSec": 327,
+     "decoy": "version"
+    },
+    {
+     "id": "g051e",
+     "uri": "spotify:track:g051e",
+     "name": "Jab Harry Met Sejal",
+     "artists": [
+      "Arijit Singh",
+      "Pritam"
+     ],
+     "album": "Jab Harry Met Sejal",
+     "durationSec": 312,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g051b",
+     "uri": "spotify:track:g051b",
+     "name": "Hawayein",
+     "artists": [
+      "Harleen Bedi"
+     ],
+     "album": "Dhun",
+     "durationSec": 261,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g051d",
+     "uri": "spotify:track:g051d",
+     "name": "Safar",
+     "artists": [
+      "Arijit Singh",
+      "Pritam"
+     ],
+     "album": "Safar",
+     "durationSec": 319,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g051a",
+     "uri": "spotify:track:g051a",
+     "name": "Hawayein (From \"Jab Harry Met Sejal\")",
+     "artists": [
+      "Arijit Singh",
+      "Pritam"
+     ],
+     "album": "Jab Harry Met Sejal",
+     "durationSec": 286,
+     "correct": true
+    }
+   ]
+  },
+  {
+   "id": "g052",
+   "videoId": "AYcxiROIktI",
+   "source": "youtube",
+   "item": {
+    "title": "Heropanti : Raat Bhar Full Song with Lyrics | Tiger Shroff | Arijit Singh, Shreya Ghoshal",
+    "channel": "T-Series",
+    "durationSec": 335,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Raat Bhar",
+    "artist": "Arijit Singh",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g052b",
+     "uri": "spotify:track:g052b",
+     "name": "Raat Bhar",
+     "artists": [
+      "Anika Sethi"
+     ],
+     "album": "Sapne",
+     "durationSec": 339,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g052d",
+     "uri": "spotify:track:g052d",
+     "name": "Whistle Baja",
+     "artists": [
+      "Arijit Singh",
+      "Shreya Ghoshal",
+      "Sajid-Wajid"
+     ],
+     "album": "Whistle Baja",
+     "durationSec": 362,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g052a",
+     "uri": "spotify:track:g052a",
+     "name": "Raat Bhar",
+     "artists": [
+      "Arijit Singh",
+      "Shreya Ghoshal",
+      "Sajid-Wajid"
+     ],
+     "album": "Heropanti",
+     "durationSec": 333,
+     "correct": true
+    },
+    {
+     "id": "g052c",
+     "uri": "spotify:track:g052c",
+     "name": "Raat Bhar - Remix",
+     "artists": [
+      "Zoya Qureshi"
+     ],
+     "album": "Heropanti",
+     "durationSec": 353,
+     "decoy": "version"
+    }
+   ]
+  },
+  {
+   "id": "g053",
+   "videoId": "N2cPyl83tkQ",
+   "source": "youtube",
+   "item": {
+    "title": "Ishq Wala Love | 4K | Alia Bhatt, Sidharth Malhotra, Varun Dhawan | Neeti Mohan | Salim Merchant",
+    "channel": "Sony Music India",
+    "durationSec": 226,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Ishq Wala Love",
+    "artist": "Neeti Mohan",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g053b",
+     "uri": "spotify:track:g053b",
+     "name": "Ishq Wala Love",
+     "artists": [
+      "Dev Raghavan"
+     ],
+     "album": "Single",
+     "durationSec": 230,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g053d",
+     "uri": "spotify:track:g053d",
+     "name": "Radha",
+     "artists": [
+      "Neeti Mohan",
+      "Salim Merchant",
+      "Vishal-Shekhar"
+     ],
+     "album": "Radha",
+     "durationSec": 253,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g053a",
+     "uri": "spotify:track:g053a",
+     "name": "Ishq Wala Love (From \"Student of the Year\")",
+     "artists": [
+      "Neeti Mohan",
+      "Salim Merchant",
+      "Vishal-Shekhar"
+     ],
+     "album": "Student of the Year (Original Motion Picture Soundtrack)",
+     "durationSec": 229,
+     "correct": true
+    },
+    {
+     "id": "g053c",
+     "uri": "spotify:track:g053c",
+     "name": "Ishq Wala Love (Acoustic)",
+     "artists": [
+      "Neeti Mohan"
+     ],
+     "album": "Student of the Year (Original Motion Picture Soundtrack)",
+     "durationSec": 206,
+     "decoy": "version"
+    },
+    {
+     "id": "g053e",
+     "uri": "spotify:track:g053e",
+     "name": "Student of the Year",
+     "artists": [
+      "Neeti Mohan",
+      "Salim Merchant"
+     ],
+     "album": "Student of the Year",
+     "durationSec": 246,
+     "decoy": "film-title-track"
+    }
+   ]
+  },
+  {
+   "id": "g054",
+   "videoId": "MJyKN-8UncM",
+   "source": "youtube",
+   "item": {
+    "title": "Shayad - Love Aaj Kal | Kartik | Sara | Arushi | Pritam | Arijit Singh",
+    "channel": "Sony Music India",
+    "durationSec": 190,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Shayad",
+    "artist": "Arijit Singh",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g054a",
+     "uri": "spotify:track:g054a",
+     "name": "Shayad (From \"Love Aaj Kal\")",
+     "artists": [
+      "Arijit Singh",
+      "Pritam"
+     ],
+     "album": "Love Aaj Kal",
+     "durationSec": 190,
+     "correct": true
+    },
+    {
+     "id": "g054c",
+     "uri": "spotify:track:g054c",
+     "name": "Shayad (Lofi Flip)",
+     "artists": [
+      "Chillout Bazaar"
+     ],
+     "album": "Love Aaj Kal",
+     "durationSec": 150,
+     "decoy": "version"
+    },
+    {
+     "id": "g054e",
+     "uri": "spotify:track:g054e",
+     "name": "Love Aaj Kal",
+     "artists": [
+      "Arijit Singh",
+      "Pritam"
+     ],
+     "album": "Love Aaj Kal",
+     "durationSec": 210,
+     "decoy": "film-title-track"
+    },
+    {
+     "id": "g054b",
+     "uri": "spotify:track:g054b",
+     "name": "Shayad",
+     "artists": [
+      "Dev Raghavan"
+     ],
+     "album": "Single",
+     "durationSec": 194,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g054d",
+     "uri": "spotify:track:g054d",
+     "name": "Haan Main Galat",
+     "artists": [
+      "Arijit Singh",
+      "Pritam"
+     ],
+     "album": "Haan Main Galat",
+     "durationSec": 217,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g055",
+   "videoId": "E_SbwSe15y0",
+   "source": "youtube",
+   "item": {
+    "title": "Ve Haaniyaan - Official Video | Ravi Dubey & Sargun Mehta | Danny | Avvy Sra | Dreamiyata Music",
+    "channel": "Dreamiyata Myusic",
+    "durationSec": 205,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Ve Haaniyaan",
+    "artist": "Danny",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g055a",
+     "uri": "spotify:track:g055a",
+     "name": "Ve Haaniyaan",
+     "artists": [
+      "Danny",
+      "Avvy Sra"
+     ],
+     "album": "Ve Haaniyaan",
+     "durationSec": 208,
+     "correct": true
+    },
+    {
+     "id": "g055c",
+     "uri": "spotify:track:g055c",
+     "name": "Ve Haaniyaan (Acoustic)",
+     "artists": [
+      "Danny"
+     ],
+     "album": "Versions",
+     "durationSec": 185,
+     "decoy": "version"
+    },
+    {
+     "id": "g055e",
+     "uri": "spotify:track:g055e",
+     "name": "Ve Haaniyaan Wali",
+     "artists": [
+      "Danny"
+     ],
+     "album": "Chann Pardesi",
+     "durationSec": 220,
+     "decoy": "longer-name-same-artist"
+    },
+    {
+     "id": "g055b",
+     "uri": "spotify:track:g055b",
+     "name": "Ve Haaniyaan",
+     "artists": [
+      "Varun Bhatt"
+     ],
+     "album": "Raat Baaki",
+     "durationSec": 174,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g055d",
+     "uri": "spotify:track:g055d",
+     "name": "Chann Pardesi",
+     "artists": [
+      "Danny",
+      "Avvy Sra"
+     ],
+     "album": "Chann Pardesi",
+     "durationSec": 232,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g056",
+   "videoId": "NW6Dgax2d6I",
+   "source": "youtube",
+   "item": {
+    "title": "Sahiba (Music Video) Jasleen Royal |Vijay Deverakonda Radhikka Madan|Stebin| Priya|Aditya| Sudhanshu",
+    "channel": "Jasleen Royal",
+    "durationSec": 260,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Sahiba",
+    "artist": "Jasleen Royal",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [],
+   "candidates": [
+    {
+     "id": "g056a",
+     "uri": "spotify:track:g056a",
+     "name": "Sahiba",
+     "artists": [
+      "Jasleen Royal",
+      "Stebin Ben"
+     ],
+     "album": "Sahiba",
+     "durationSec": 258,
+     "correct": true
+    },
+    {
+     "id": "g056c",
+     "uri": "spotify:track:g056c",
+     "name": "Sahiba - Remix",
+     "artists": [
+      "Nikhil Arora"
+     ],
+     "album": "Versions",
+     "durationSec": 278,
+     "decoy": "version"
+    },
+    {
+     "id": "g056e",
+     "uri": "spotify:track:g056e",
+     "name": "Sahiba",
+     "artists": [
+      "Aditya Rikhari"
+     ],
+     "album": "Sahiba",
+     "durationSec": 184,
+     "decoy": "same-name-famous-other-artist"
+    },
+    {
+     "id": "g056b",
+     "uri": "spotify:track:g056b",
+     "name": "Sahiba",
+     "artists": [
+      "Zoya Qureshi"
+     ],
+     "album": "Khamoshi",
+     "durationSec": 229,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g056d",
+     "uri": "spotify:track:g056d",
+     "name": "Heeriye",
+     "artists": [
+      "Jasleen Royal",
+      "Stebin Ben"
+     ],
+     "album": "Heeriye",
+     "durationSec": 287,
+     "decoy": "same-artist-other-song"
+    }
+   ]
+  },
+  {
+   "id": "g057",
+   "videoId": "k4yXQkG2s1E",
+   "source": "youtube",
+   "item": {
+    "title": "काला चश्मा | बार बार देखों | सिद्धार्थ मल्होत्रा कैटरीना कैफ | बादशाह नेहा कक्कड़ इंदीप बख्शी",
+    "channel": "Zee Music Company",
+    "durationSec": 174,
+    "site": "youtube"
+   },
+   "expected": {
+    "song": "Kala Chashma",
+    "artist": "Amar Arshi",
+    "version": null
+   },
+   "unsure": false,
+   "expectHigh": true,
+   "tags": [
+    "devanagari",
+    "label",
+    "film-format"
+   ],
+   "candidates": [
+    {
+     "id": "g057b",
+     "uri": "spotify:track:g057b",
+     "name": "Kala Chashma",
+     "artists": [
+      "Ishaan Rao"
+     ],
+     "album": "Dhun",
+     "durationSec": 143,
+     "decoy": "same-name-other-artist"
+    },
+    {
+     "id": "g057d",
+     "uri": "spotify:track:g057d",
+     "name": "Sau Aasmaan",
+     "artists": [
+      "Amar Arshi",
+      "Badshah",
+      "Neha Kakkar",
+      "Prem Hardeep"
+     ],
+     "album": "Sau Aasmaan",
+     "durationSec": 201,
+     "decoy": "same-artist-other-song"
+    },
+    {
+     "id": "g057a",
+     "uri": "spotify:track:g057a",
+     "name": "Kala Chashma (From \"Baar Baar Dekho\")",
+     "artists": [
+      "Amar Arshi",
+      "Badshah",
+      "Neha Kakkar",
+      "Prem Hardeep"
+     ],
+     "album": "Baar Baar Dekho (Original Motion Picture Soundtrack)",
+     "durationSec": 177,
+     "correct": true
+    },
+    {
+     "id": "g057c",
+     "uri": "spotify:track:g057c",
+     "name": "Kala Chashma (Acoustic)",
+     "artists": [
+      "Amar Arshi"
+     ],
+     "album": "Baar Baar Dekho (Original Motion Picture Soundtrack)",
+     "durationSec": 154,
+     "decoy": "version"
+    },
+    {
+     "id": "g057e",
+     "uri": "spotify:track:g057e",
+     "name": "Kala Chashma Wali",
+     "artists": [
+      "Amar Arshi"
+     ],
+     "album": "Sau Aasmaan",
+     "durationSec": 189,
+     "decoy": "longer-name-same-artist"
+    }
+   ]
+  }
+ ]
+}

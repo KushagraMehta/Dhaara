@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dhaara</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="popup">
+  <header id="head" class="pop-head">
+    <h1 id="headTitle" class="head-title"><span id="headText"></span></h1>
+    <div class="head-r">
+      <button id="fullBtn" class="icon-btn" title="Open Full View" aria-label="Open Full View"></button>
+      <div id="account"></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="status" role="status"></div>
+
+    <section id="login" class="login" aria-labelledby="loginTitle" hidden></section>
+
+    <section id="now" aria-label="Now playing" hidden></section>
+
+    <section id="spotifyNow" class="spotify-now" aria-label="Spotify" hidden></section>
+
+    <section id="mix" class="section" aria-labelledby="mixTitle" hidden>
+      <div id="mixHead" class="section-head">
+        <span class="cbx"><input type="checkbox" id="tickAll" aria-label="Select All Songs"></span>
+        <div>
+          <h2 id="mixTitle" class="section-title"></h2>
+          <div id="mixMeta" class="section-meta"></div>
+          <div id="mixLink" class="section-link" hidden></div>
+        </div>
+      </div>
+      <div class="group">
+        <div id="rows" class="rows"></div>
+        <button id="moreBtn" class="more-btn" hidden></button>
+      </div>
+      <p class="credit">Song details and artwork from Spotify.</p>
+    </section>
+  </main>
+
+  <div id="dock" class="dock">
+    <div id="job" class="feedback" role="status"></div>
+    <footer id="bar" class="bar" hidden>
+      <button id="queueAll"></button>
+      <button id="saveBtn" aria-label="Save to Playlist…"></button>
+      <span class="spacer"></span>
+      <button id="playAll" class="primary"></button>
+    </footer>
+  </div>
+
+  <div id="scrim" class="scrim" hidden></div>
+  <section id="saveSheet" class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+    <div class="sheet-head">
+      <h2 id="sheetTitle">Save to Playlist</h2>
+      <button id="sheetClose" class="icon-btn" title="Close" aria-label="Close"></button>
+    </div>
+    <div class="form">
+      <label for="target" id="targetLabel">Playlist</label>
+      <button id="target" class="menu-btn" aria-labelledby="targetLabel target"></button>
+      <label for="playlistName" id="nameLabel">Name</label>
+      <input id="playlistName" type="text" placeholder="Playlist name" autocomplete="off">
+      <span id="publicGap"></span>
+      <label class="check" id="publicRow"><input type="checkbox" id="isPublic"> Make Public</label>
+    </div>
+    <div class="sheet-btns">
+      <button id="sheetCancel">Cancel</button>
+      <button id="saveGo" class="primary"></button>
+    </div>
+  </section>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

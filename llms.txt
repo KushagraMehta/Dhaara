@@ -1,0 +1,36 @@
+# Dhaara
+
+> Dhaara is a free, open-source browser extension that moves the YouTube Mix, playlist or song you're watching to Spotify, so you can play, queue or save it there.
+
+Dhaara (Hindi for "stream, flow") is a Chrome and Brave extension (Manifest V3, MIT license). Tagline: "Let your YouTube Mixes flow into Spotify." It is an independent project and is not affiliated with YouTube, Google or Spotify.
+
+- Website: https://kushagramehta.github.io/Dhaara/
+- Source code: https://github.com/KushagraMehta/Dhaara
+
+## Docs
+
+- [README](https://github.com/KushagraMehta/Dhaara/blob/main/README.md): features, install, how to connect Spotify, shortcuts, permissions, comparison with other tools, FAQ and known limits.
+- [Privacy](https://github.com/KushagraMehta/Dhaara/blob/main/PRIVACY.md): what is stored in the browser, what is sent to YouTube and Spotify, and how to delete it.
+- [Decisions](https://github.com/KushagraMehta/Dhaara/blob/main/docs/decisions.md): why the extension works the way it does (linked playlists, which matches start ticked, playback rules, name, license).
+- [Design notes](https://github.com/KushagraMehta/Dhaara/blob/main/DESIGN.md): the Apple-style interface, tokens, components and motion.
+- [Contributing](https://github.com/KushagraMehta/Dhaara/blob/main/CONTRIBUTING.md): load it unpacked, run the tests, and report a bad match.
+
+## FAQ facts
+
+- Dhaara reads the song, YouTube Mix (including personal auto-generated Mixes, `list=RD…`), playlist, Short, or YouTube Music queue or album that you have open, and matches each video to a Spotify song.
+- Link-based importers such as TuneMyMusic, Soundiiz and Spotify's own "Import your music" read playlists through YouTube's API, which does not return personal Mixes, so they usually cannot import them. Dhaara reads the page you have open instead. This has not been re-tested for every importer on every release.
+- After matching you can play, queue, add to Liked Songs, or save the list as a Spotify playlist. A Mix saved to a playlist stays linked to it, and saving it again adds only the new songs. Dhaara never removes songs.
+- The matcher is tuned for messy titles, including Hindi, Punjabi and Bollywood film songs: it reads Devanagari and Gurmukhi script, Hinglish spellings and film names, and never ticks a same-name song by a different artist automatically.
+- Every match shows how sure it is: Sure (3 bars, ticked for you), Check, Unsure, or Not found. Only sure matches start ticked.
+- Dhaara is free, MIT-licensed and has no server, no account of its own and no analytics. Everything stays in the browser, and Disconnect deletes what was saved.
+- The official login uses Spotify's documented PKCE flow through a Spotify developer app that you own. Dhaara fills in Spotify's Create app form for you. Spotify requires the app owner to have Premium, and playing and queueing also need Premium. One app can serve at most 5 people.
+- An optional unofficial no-setup mode uses your open Spotify web player tab. It can stop working whenever Spotify changes its web player.
+- Keyboard shortcuts: Alt+Shift+L likes the song playing on YouTube, Alt+Shift+Q queues it, Alt+Shift+S saves the Mix to its linked playlist.
+- When you play from Dhaara, YouTube is paused, and when a YouTube video starts, a playing Spotify is paused. This can be turned off in Settings.
+- It works in Chrome and Brave. It is not on the Chrome Web Store yet: install it from GitHub with Load unpacked.
+
+## Optional
+
+- [Third-party notices](https://github.com/KushagraMehta/Dhaara/blob/main/THIRD_PARTY_NOTICES.md): credits for the MIT code that the no-setup login borrows from.
+- [License](https://github.com/KushagraMehta/Dhaara/blob/main/LICENSE): MIT.
+- [Tests](https://github.com/KushagraMehta/Dhaara/tree/main/tests): the golden set of real YouTube titles used to check the matcher (`node tests/run.mjs`).

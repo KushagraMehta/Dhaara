@@ -1,0 +1,9 @@
+# Everything on this site may be crawled, including search and AI-answer crawlers.
+#
+# Note: crawlers only read robots.txt at the root of a host. This project site lives under
+# /Dhaara/, so this copy is mainly documentation. Nothing is blocked either way. To make
+# Google and Bing see the sitemap, submit it in Search Console and Bing Webmaster Tools.
+User-agent: *
+Allow: /
+
+Sitemap: https://kushagramehta.github.io/Dhaara/sitemap.xml

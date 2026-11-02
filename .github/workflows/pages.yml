@@ -1,0 +1,45 @@
+# Publishes ONLY docs/site/ (the landing page) to GitHub Pages.
+# The rest of docs/ (decisions, reviews, design notes) is not published.
+#
+# One-time switch-on: repo Settings > Pages > Build and deployment > Source: "GitHub Actions".
+# Site URL: https://kushagramehta.github.io/Dhaara/
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/site/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; let a running deployment finish instead of cancelling it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload docs/site as the Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs/site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
